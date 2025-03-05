@@ -1379,7 +1379,7 @@ Pan Card NO: BPCPS7428N
         </a>
     
         <a href="tel:9820700800" class="call-btn">
-            <i class="fas fa-phone"></i> <span>Call Now on this no.</span>
+            <i class="fas fa-phone"></i> <span>Call Now on</span>
         </a>
        
     </div>
