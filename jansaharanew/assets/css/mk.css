@@ -1,0 +1,134 @@
+@charset "utf-8";
+/* CSS Document */
+a {
+    color: #000 !important;
+ }
+ 
+ .mobile-menu-overlay a{ color:#FFF !important;}
+ 
+ .ht-box-images.style-01 .circle-arrow a {
+    color: #fff;
+    background: #009342;
+}
+.header-top-wrap{ background-color:#034925}
+.header-top-wrap p{ color:#FFF;}
+.header-top-wrap a{color:#FFF !important;}
+.fun-fact--one .fun-fact__text {
+    color: #000;
+}
+
+.sider-title-button-box a{ color:#FFF !important;}
+
+.ht-list.style-auto-numbered-02 .title {font-size: 18px;}
+
+.fun-fact-con{
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 1.41;
+    color: #034a26;
+}
+ 
+.header__logo > a img {
+    width: 250px;
+}
+
+.navigation-menu > ul > li {
+    margin:0px 20px 0px 0px;
+}
+#wrapper {
+    padding: 0px !important;
+}
+
+
+.ht-box-images.style-01 .image-box-wrap {
+    padding: 21px 22px 60px 22px;
+}
+
+.mobile-navigation-icon {
+    width: 24px;
+    height: 25px;
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 28px;
+    margin-left: 147px;
+}
+
+/*Sticky Call & WhatsApp Buttons*/
+
+
+    /* Footer Strip Container */
+    .footer-strip {
+        display: none; /* Hidden on desktops */
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: #ffffff; /* White background */
+        border-top: 2px solid #ddd;
+        box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.1);
+        z-index: 9999;
+        padding: 10px 0;
+    }
+
+    /* Buttons Container */
+    .slider-buttons {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 10px 20px;
+    }
+
+    /* Button Style */
+    .slider-buttons a {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: bold;
+        width: 120px;
+        height: 50px;
+        border-radius: 25px;
+        position: relative;
+        overflow: hidden;
+        color: #ffffff; /* Text default color */
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        animation: ambulanceLights 2s linear infinite; /* Add animation */
+        transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+    }
+
+    /* Continuous Ambulance Light Animation */
+    @keyframes ambulanceLights {
+        0% { background: #f44336; } /* Red */
+        50% { background: #25d366; } /* Green */
+        100% { background: #f44336; } /* Red */
+    }
+
+    /* Hover Effect */
+    .slider-buttons a:hover {
+        transform: scale(1.1); /* Scale up */
+        color: #ffffff; /* Text color white */
+        text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+
+    /* Icon Style */
+    .slider-buttons a i {
+        font-size: 20px;
+        margin-right: 8px;
+    }
+
+    .slider-buttons a span {
+        position: relative;
+    }
+
+    /* Responsive: Show only on mobile */
+    @media (max-width: 768px) {
+        .footer-strip {
+            display: block;
+        }
+    }
+
+
+
+/*Sticky Call & WhatsApp Buttons End*/

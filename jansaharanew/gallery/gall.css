@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+        .thumbnail img {
+            height: 400px;
+            width: 400px;
+            object-fit: cover;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            transition: transform 0.3s ease, border-color 0.3s ease;
+        }
+
+        .thumbnail img:hover {
+            transform: scale(1.1);
+            border-color: #007bff;
+        }
+
+        .modal-content {
+            position: relative;
+        }
+
+        .btn {
+            z-index: 1050;
+        }
+
+        #prevBtn, #nextBtn {
+            width: 50px;
+            height: 50px;
+            background-color: rgba(0, 0, 0, 0.6);
+            border: none;
+            color: white;
+            font-size: 24px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            border-radius: 50%;
+        }
+
+        #prevBtn:hover, #nextBtn:hover {
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+
+    
+  
+    /* Ensure modal is always on top */
+    .modal {
+        z-index: 1050 !important;
+    }
+
+    .modal-dialog {
+        z-index: 1060 !important;
+    }
+
+    .modal-body {
+        z-index: 1070 !important;
+    }
+	/* Remove the backdrop */
+.modal-backdrop {
+    display: none !important;
+}
+
+    .btn {
+        z-index: 1080 !important;
+    }
+
+    /* Ensure header does not block the modal */
+    header {
+        position: relative;
+        z-index: 999; /* Lower than the modal */
+    }
+
+    /* Increase z-index for next/prev buttons */
+    #prevBtn, #nextBtn {
+        z-index: 1100 !important;
+    }
+
+    /* Increase z-index of close button */
+    .btn-close {
+        z-index: 1150 !important;
+    }
+
+
