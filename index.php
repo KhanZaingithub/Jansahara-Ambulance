@@ -38,6 +38,7 @@
     <!-- Main Style CSS -->
     <link rel="stylesheet" href="jansaharanew/assets/css/style.css">
    
+    <?php include 'include/discount-button.php'; ?> 
     
     <!-- slider files -->
      <link rel="stylesheet" href="jansaharanew/slider/responsiveslides.css">

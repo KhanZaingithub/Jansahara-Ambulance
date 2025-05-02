@@ -1,26 +1,26 @@
-After making changes to your PHP website, follow these steps to push the updated code to GitHub:
+# How to Push Code to GitHub After Updating
 
-Steps to Push Updated Code to GitHub
-1️⃣ Navigate to your project folder
-Open your terminal/command prompt and go to your project directory:
+1. Open Command Prompt and go to your project folder:  
+   cd C:\xampp\htdocs\Jansahara  
 
+2. Check file changes:  
+   git status  
 
-cd C:\xampp\htdocs\Jansahara
-2️⃣ Check for changes
-See which files have been modified:
+3. Add updated files:  
+   git add .  
 
+4. Commit changes with a message:  
+   git commit -m "Your message here"  
 
-git status
-3️⃣ Stage the changes
-Add all updated files to Git:
+5. Push to GitHub:  
+   git push origin main  
 
+6. If errors occur, try pulling first:  
+   git pull origin main --rebase  
 
-git add .
-4️⃣ Commit the changes
-Provide a message describing your update:
+7. Repeat steps 2-5 for future updates.  
 
-
-git commit -m "Updated homepage content"
-5️⃣ Push changes to GitHub
-Send your updates to GitHub:
-git push origin main
+# Notes:  
+- Use meaningful commit messages.  
+- Always check `git status` before adding files.  
+- If prompted, enter GitHub credentials.  
