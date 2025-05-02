@@ -37,9 +37,8 @@
 
     <!-- Main Style CSS -->
     <link rel="stylesheet" href="jansaharanew/assets/css/style.css">
-
-    <?php include 'include/discount-button.php'; ?>
-
+   
+    
     <!-- slider files -->
     <link rel="stylesheet" href="jansaharanew/slider/responsiveslides.css">
     <link rel="stylesheet" href="jansaharanew/slider/demo/demo.css">
@@ -1374,21 +1373,21 @@
     </div>
     <!--====================  End of search overlay  ====================-->
 
-    <!-- Sticky Footer with Color Effect -->
-    <!-- Sticky Footer with Animated Background -->
-    <div class="footer-strip">
-        <div class="slider-buttons">
-
-            <a href="https://wa.me/919820700900" target="_blank" class="whatsapp-btn">
-                <i class="fab fa-whatsapp"></i> <span>WhatsApp</span>
-            </a>
-
-            <a href="tel:9820700800" class="call-btn">
-                <i class="fas fa-phone"></i> <span>Call Now on this no.</span>
-            </a>
-
-        </div>
+<!-- Sticky Footer with Color Effect -->
+<!-- Sticky Footer with Animated Background -->
+<div class="footer-strip">
+    <div class="slider-buttons">
+    
+     <a href="https://wa.me/919820700900" target="_blank" class="whatsapp-btn">
+            <i class="fab fa-whatsapp"></i> <span>WhatsApp</span>
+        </a>
+    
+        <a href="tel:9820700800" class="call-btn">
+            <i class="fas fa-phone"></i> <span>Call Now on this no.</span>
+        </a>
+       
     </div>
+</div>
 
 
 
