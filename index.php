@@ -7,18 +7,18 @@
     <title>Ambulance Services in Mumbai | 24/7 Road, Air &amp; Train Ambulance</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Ambulance services in Mumbai offering 24/7 road, air, and train ambulances. Trusted care, fast response, and professional medical support when you need it most.">
-    
+
     <!--  Open Graph metadata -->
-    
+
     <meta property="og:type" content="website" />
-<meta property="og:title" content="Jan Sahara Ambulance Services" />
-<meta property="og:description" content="24/7 Emergency Ambulance Services in Mumbai, providing reliable and efficient patient transportation." />
-<meta property="og:url" content="https://jansaharaambulance.com" />
-<meta property="og:image" content="https://jansaharaambulance.com/assets/images/jansaharaambulance.png" />
-<meta property="og:image:alt" content="Jan Sahara Ambulance providing emergency service" />
-<meta property="og:site_name" content="Jan Sahara Ambulance Services" />
-    
-    
+    <meta property="og:title" content="Jan Sahara Ambulance Services" />
+    <meta property="og:description" content="24/7 Emergency Ambulance Services in Mumbai, providing reliable and efficient patient transportation." />
+    <meta property="og:url" content="https://jansaharaambulance.com" />
+    <meta property="og:image" content="https://jansaharaambulance.com/assets/images/jansaharaambulance.png" />
+    <meta property="og:image:alt" content="Jan Sahara Ambulance providing emergency service" />
+    <meta property="og:site_name" content="Jan Sahara Ambulance Services" />
+
+
     <!-- Favicon -->
     <link rel="icon" href="jansaharanew/assets/images/favicon.ico">
 
@@ -37,67 +37,67 @@
 
     <!-- Main Style CSS -->
     <link rel="stylesheet" href="jansaharanew/assets/css/style.css">
-   
-    <?php include 'include/discount-button.php'; ?> 
-    
+
+    <?php include 'include/discount-button.php'; ?>
+
     <!-- slider files -->
-     <link rel="stylesheet" href="jansaharanew/slider/responsiveslides.css">
-  <link rel="stylesheet" href="jansaharanew/slider/demo/demo.css">
-  <!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>-->
-  <script src="jansaharanew/assets/js/vendor/jquery-3.5.1.min.js"></script> <!-- Desable for slider -->
-  <script src="jansaharanew/slider/responsiveslides.min.js"></script>
-  <script type="text/javascript">
-    // You can also use "$(window).load(function() {"
-    $(function () {     
+    <link rel="stylesheet" href="jansaharanew/slider/responsiveslides.css">
+    <link rel="stylesheet" href="jansaharanew/slider/demo/demo.css">
+    <!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>-->
+    <script src="jansaharanew/assets/js/vendor/jquery-3.5.1.min.js"></script> <!-- Desable for slider -->
+    <script src="jansaharanew/slider/responsiveslides.min.js"></script>
+    <script type="text/javascript">
+        // You can also use "$(window).load(function() {"
+        $(function() {
 
-      // Slideshow 4
-      $("#slider4").responsiveSlides({
-        auto: true,
-        pager: false,
-        nav: true,
-        speed: 500,
-        namespace: "callbacks",
-        before: function () {
-          $('.events').append("<li>before event fired.</li>");
-        },
-        after: function () {
-          $('.events').append("<li>after event fired.</li>");
-        }
-      });
+            // Slideshow 4
+            $("#slider4").responsiveSlides({
+                auto: true,
+                pager: false,
+                nav: true,
+                speed: 500,
+                namespace: "callbacks",
+                before: function() {
+                    $('.events').append("<li>before event fired.</li>");
+                },
+                after: function() {
+                    $('.events').append("<li>after event fired.</li>");
+                }
+            });
 
-    });
-  </script>
-  <!-- slider files -->
-  
-   <!-- Photo gallery files -->
-<link rel="stylesheet" type="text/css" href="jansaharanew/gallery/gall.css">
+        });
+    </script>
+    <!-- slider files -->
 
- <!-- coustom Style CSS -->
-	<link rel="stylesheet" type="text/css" href="jansaharanew/assets/css/mk.css">
+    <!-- Photo gallery files -->
+    <link rel="stylesheet" type="text/css" href="jansaharanew/gallery/gall.css">
 
-<!-- Modal HTML -->
-<div class="modal fade" id="lightboxModal" tabindex="-1" aria-labelledby="lightboxModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered modal-lg">
-        <div class="modal-content">
-            <div class="modal-body position-relative">
-                <img id="lightboxImage" class="img-fluid w-100 rounded" src="" alt="Expanded Image">
-                <button class="btn btn-secondary position-absolute top-50 start-0 translate-middle-y px-3" id="prevBtn">
-                    &#10094;
-                </button>
-                <button class="btn btn-secondary position-absolute top-50 end-0 translate-middle-y px-3" id="nextBtn">
-                    &#10095;
-                </button>
+    <!-- coustom Style CSS -->
+    <link rel="stylesheet" type="text/css" href="jansaharanew/assets/css/mk.css">
+
+    <!-- Modal HTML -->
+    <div class="modal fade" id="lightboxModal" tabindex="-1" aria-labelledby="lightboxModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-body position-relative">
+                    <img id="lightboxImage" class="img-fluid w-100 rounded" src="" alt="Expanded Image">
+                    <button class="btn btn-secondary position-absolute top-50 start-0 translate-middle-y px-3" id="prevBtn">
+                        &#10094;
+                    </button>
+                    <button class="btn btn-secondary position-absolute top-50 end-0 translate-middle-y px-3" id="nextBtn">
+                        &#10095;
+                    </button>
+                </div>
+                <button type="button" class="btn-close position-absolute top-0 end-0 m-3" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <button type="button" class="btn-close position-absolute top-0 end-0 m-3" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
     </div>
-</div>
 
-    
+
 </head>
 
 <body>
-
+    <!-- PreLoader -->
     <div class="preloader-activate preloader-active open_tm_preloader">
         <div class="preloader-area-wrap">
             <div class="spinner d-flex justify-content-center align-items-center h-100">
@@ -107,7 +107,9 @@
             </div>
         </div>
     </div>
-
+    <div>
+        <h1>hello</h1>
+    </div>
     <!--====================  header area ====================-->
     <div class="header-area header-area--default">
 
@@ -148,16 +150,16 @@
 
                                                     <ul>
                                                         <li>
-                                                            <a href="https://jansaharaambulance.com/"><span>Home</span></a>                                                            
+                                                            <a href="https://jansaharaambulance.com/"><span>Home</span></a>
                                                         </li>
                                                         <li>
-                                                            <a href="https://jansaharaambulance.com/about.php"><span>About us</span></a>                                                           
+                                                            <a href="https://jansaharaambulance.com/about.php"><span>About us</span></a>
                                                         </li>
                                                         <li class="has-children has-children--multilevel-submenu">
                                                             <a href="#"><span>Services</span></a>
                                                             <ul class="submenu">
-                                                                
-                                                                <li><a href="https://jansaharaambulance.com/road-ambulance-service.php"><span>Road  Ambulance</span></a></li>
+
+                                                                <li><a href="https://jansaharaambulance.com/road-ambulance-service.php"><span>Road Ambulance</span></a></li>
                                                                 <li><a href="https://jansaharaambulance.com/train-ambulance-service.php"><span>Train ambulance</span></a></li>
                                                                 <li><a href="https://jansaharaambulance.com/air-ambulance-service.php"><span>Air Ambulance</span></a></li>
                                                                 <li><a href="https://jansaharaambulance.com/cardiac-ambulance-service.php"><span>Cardiac Ambulance</span></a></li>
@@ -168,26 +170,26 @@
                                                                 <li><a href="https://jansaharaambulance.com/antim-sanskar-seva.php"><span>Antim Sanskar Seva</span></a></li>
                                                             </ul>
                                                         </li>
-                                                        
-                                                        
 
 
 
-                                                        
-                                                        
+
+
+
+
                                                         <li><a href="https://jansaharaambulance.com/book-ambulance.php"><span>Book Ambulance</a></li>
-                                                        
+
                                                         <li><a href="https://jansaharaambulance.com/pay-online.php"><span>Pay Online</a></li>
-                                                        
+
                                                         <li><a href="https://jansaharaambulance.com/contact-us.php"><span>Contact</a></li>
-                                                        
+
                                                         <li><a href="https://drive.google.com/file/d/1ODJFFQRkWyKZunS3USPfDbRA7z7xziK6/view" target="_blank"><span>Download Cataglog</a></li>
-                                                        
-                                                        
+
+
                                                         <li><a href="tel:9820700800"><i class="fas fa-phone fa-flip-horizontal"></i> 9820700800</a></li>
-                                                        
+
                                                         <li><a href="tel:9320800900"><i class="fas fa-phone fa-flip-horizontal"></i> 9320800900</a></li>
-                                                        
+
                                                     </ul>
                                                 </nav>
                                             </div>
@@ -199,7 +201,7 @@
 
                             <!-- header right box -->
                             <div class="header-right-box d-block d-xl-none">
-                                
+
                                 <!-- mobile menu -->
                                 <div class="mobile-navigation-icon d-block d-xl-none" id="mobile-menu-trigger">
                                     <i></i>
@@ -238,34 +240,34 @@
         <div class="site-wrapper-reveal">
             <!--============ Infotechno Hero Start ============-->
             <div id="wrapper">
-  
-    <!-- Slideshow 3 -->
-    
-    
-    <div class="callbacks_container">
-      <ul class="rslides" id="slider4">
-         <li><img src="jansaharanew/slider/demo/images/call-ambulance-mumbai.webp" alt="Private ambulance service mumbai"></li>
-      <li><img src="jansaharanew/slider/demo/images/ambulance-near-me.webp" alt="Private ambulance nearme"></li>
-      <li><img src="jansaharanew/slider/demo/images/ambulance-no.webp" alt="Private ambulance mumbai"></li>
-         <li><img src="jansaharanew/slider/demo/images/Ambulance-Services.webp" alt="Private ambulance"></li>
-      <li><img src="jansaharanew/slider/demo/images/fast-ambulance.webp" alt="Fast ambulance"></li>
-      <li><img src="jansaharanew/slider/demo/images/call-ambulance.webp" alt="call ambulance"></li>
-      <li><img src="jansaharanew/slider/demo/images/funeral-service-mumbai.webp" alt="funeral company in mumbai"></li>
-      </ul>
-    </div>
 
-    <!-- Slideshow 3 Pager -->
-    <!--<ul id="slider3-pager">
+                <!-- Slideshow 3 -->
+
+
+                <div class="callbacks_container">
+                    <ul class="rslides" id="slider4">
+                        <li><img src="jansaharanew/slider/demo/images/call-ambulance-mumbai.webp" alt="Private ambulance service mumbai"></li>
+                        <li><img src="jansaharanew/slider/demo/images/ambulance-near-me.webp" alt="Private ambulance nearme"></li>
+                        <li><img src="jansaharanew/slider/demo/images/ambulance-no.webp" alt="Private ambulance mumbai"></li>
+                        <li><img src="jansaharanew/slider/demo/images/Ambulance-Services.webp" alt="Private ambulance"></li>
+                        <li><img src="jansaharanew/slider/demo/images/fast-ambulance.webp" alt="Fast ambulance"></li>
+                        <li><img src="jansaharanew/slider/demo/images/call-ambulance.webp" alt="call ambulance"></li>
+                        <li><img src="jansaharanew/slider/demo/images/funeral-service-mumbai.webp" alt="funeral company in mumbai"></li>
+                    </ul>
+                </div>
+
+                <!-- Slideshow 3 Pager -->
+                <!--<ul id="slider3-pager">
       <li><a href="#"><img src="slider/demo/images/1_thumb.jpg" alt=""></a></li>
       <li><a href="#"><img src="slider/demo/images/2_thumb.jpg" alt=""></a></li>
       <li><a href="#"><img src="slider/demo/images/3_thumb.jpg" alt=""></a></li>
     </ul>-->
 
 
-  </div>
+            </div>
             <!--============ Infotechno Hero End ============-->
             <!--====================  brand logo slider area ====================-->
-            
+
             <!--====================  End of brand logo slider area  ====================-->
             <!--===========  feature-images-wrapper  Start =============-->
             <div class="feature-images-wrapper bg-gray section-space--ptb_100">
@@ -285,7 +287,7 @@
                     <div class="row">
                         <div class="col-12">
 
-                        
+
                             <div class="feature-images__one">
                                 <div class="row">
 
@@ -312,7 +314,7 @@
                                         </div>
                                         <!-- ht-box-icon End -->
                                     </div>
-                                    
+
                                     <div class="col-lg-4 col-md-6 wow move-up">
                                         <!-- ht-box-icon Start -->
                                         <div class="ht-box-images style-01">
@@ -336,7 +338,7 @@
                                         </div>
                                         <!-- ht-box-icon End -->
                                     </div>
-                                    
+
                                     <div class="col-lg-4 col-md-6 wow move-up">
                                         <!-- ht-box-icon Start -->
                                         <div class="ht-box-images style-01">
@@ -361,12 +363,12 @@
                                         <!-- ht-box-icon End -->
                                     </div>
 
-                                 
+
 
                                 </div>
-                                
+
                                 <div class="row">
-                                
+
                                     <div class="col-lg-12 col-md-12 wow move-up">
                                         <!-- ht-box-icon Start -->
                                         <div class="ht-box-images style-01">
@@ -402,7 +404,7 @@
                 </div>
             </div>
             <!--===========  feature-images-wrapper  End =============-->
- 
+
             <!-- ============ Our Experience Wrapper Start =============== -->
             <div class="section-space--ptb_100 infotechno-section-bg-01">
 
@@ -458,7 +460,7 @@
                                             </div>
                                         </a>
                                     </div>
-                                    
+
                                     <div class="list-item">
                                         <a class="link" href="#">
                                             <div class="list-header">
@@ -475,51 +477,51 @@
                     </div>
                 </div>
 
-               
+
 
 
             </div>
             <!-- ============ Our Experience Wrapper End =============== -->
-              <!--=========== fun fact Wrapper Start ==========-->
+            <!--=========== fun fact Wrapper Start ==========-->
             <div class="fun-fact-wrapper">
                 <div class="container">
                     <div class="fun-fact-grid-4">
                         <div class="grid-item  wow move-up">
                             <div class="fun-fact--one text-center">
-                                
-                                <div class="fun-fact-con"><span  class="fun-fact__count counter">5000</span>+</div>
+
+                                <div class="fun-fact-con"><span class="fun-fact__count counter">5000</span>+</div>
                                 <span class="fun-fact__text">Lives Touched</span>
                             </div>
                         </div>
                         <div class="grid-item  wow move-up">
                             <div class="fun-fact--one text-center">
-                               
-                                <div class="fun-fact-con"><span  class="fun-fact__count counter">100</span>%</div>
+
+                                <div class="fun-fact-con"><span class="fun-fact__count counter">100</span>%</div>
                                 <span class="fun-fact__text">Satisfaction Rate
-</span>
+                                </span>
                             </div>
                         </div>
                         <div class="grid-item  wow move-up">
                             <div class="fun-fact--one text-center">
-                                
-                                <div class="fun-fact-con"><span  class="fun-fact__count counter">250</span>+</div>
+
+                                <div class="fun-fact-con"><span class="fun-fact__count counter">250</span>+</div>
                                 <span class="fun-fact__text">Cities</span>
                             </div>
                         </div>
                         <div class="grid-item  wow move-up">
                             <div class="fun-fact--one text-center">
-                                
-                                 <div class="fun-fact-con"><span  class="fun-fact__count counter">100</span>+</div>
+
+                                <div class="fun-fact-con"><span class="fun-fact__count counter">100</span>+</div>
                                 <span class="fun-fact__text">Partnered Hospitals
-</span>
+                                </span>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             <!--=========== fun fact Wrapper End ==========-->
-          
-           
+
+
             <!--=========== Infotechno Video Wrapper Start ==========-->
             <div class="infotechno-video-wrapper infotechno-video-ptb infotechno-video-bg">
                 <div class="container">
@@ -529,51 +531,52 @@
                             <div class="video-content-wrap">
                                 <div class="vieeo-content-inner">
                                     <h2 class="heading">Call Us Now – Help is Just a Step Away!</h2>
-<h2  class="heading"><i class="fas fa-phone fa-flip-horizontal"></i> <a href="tel:9820700800" class="text-white">9820700800</a><br>
-<i class="fas fa-phone fa-flip-horizontal"></i> <a href="tel:9320800900" class="text-white">9320800900</a></h2>
+                                    <h2 class="heading"><i class="fas fa-phone fa-flip-horizontal"></i> <a href="tel:9820700800" class="text-white">9820700800</a><br>
+                                        <i class="fas fa-phone fa-flip-horizontal"></i> <a href="tel:9320800900" class="text-white">9320800900</a>
+                                    </h2>
 
                                     <div class="viewo-text-wrap">
-                                        
+
 
                                     </div>
 
                                 </div>
                             </div>
                         </div>
-                        
-                        <div class="col-lg-6">
-                        	<div class="panel-btn mt-20">
-                   <form id="contact-form" action="jansaharanew/mail.php" method="post" novalidate>
-    <div class="contact-form">
-        <div class="contact-inner">
-            <input name="Name" type="text" placeholder="Name *" required>
-        </div>
-        <div class="contact-inner">
-            <input name="Service" type="text" placeholder="Contact Number *" required>
-        </div>
-        <div class="contact-inner">
-            <select name="con_service">
-                <option value="Select Service">Select Service</option>
-                <option value="Road Ambulance Service">Road Ambulance Service</option>
-                <option value="Train Ambulance Service">Train Ambulance Service</option>
-                <option value="Air Ambulance Service">Air Ambulance Service</option>
-                <option value="Funeral Service">Funeral Services</option>
-            </select>
-        </div>
-        <div class="contact-inner contact-message">
-            <textarea name="Message" placeholder="Please describe what you need." required></textarea>
-        </div>
-        
-        
-        
-        <div class="submit-btn mt-20">
-            <button class="ht-btn ht-btn-md" type="submit">Send message</button>
-            <p class="form-messege"></p>
-        </div>
-    </div>
-</form>
 
-                </div>
+                        <div class="col-lg-6">
+                            <div class="panel-btn mt-20">
+                                <form id="contact-form" action="jansaharanew/mail.php" method="post" novalidate>
+                                    <div class="contact-form">
+                                        <div class="contact-inner">
+                                            <input name="Name" type="text" placeholder="Name *" required>
+                                        </div>
+                                        <div class="contact-inner">
+                                            <input name="Service" type="text" placeholder="Contact Number *" required>
+                                        </div>
+                                        <div class="contact-inner">
+                                            <select name="con_service">
+                                                <option value="Select Service">Select Service</option>
+                                                <option value="Road Ambulance Service">Road Ambulance Service</option>
+                                                <option value="Train Ambulance Service">Train Ambulance Service</option>
+                                                <option value="Air Ambulance Service">Air Ambulance Service</option>
+                                                <option value="Funeral Service">Funeral Services</option>
+                                            </select>
+                                        </div>
+                                        <div class="contact-inner contact-message">
+                                            <textarea name="Message" placeholder="Please describe what you need." required></textarea>
+                                        </div>
+
+
+
+                                        <div class="submit-btn mt-20">
+                                            <button class="ht-btn ht-btn-md" type="submit">Send message</button>
+                                            <p class="form-messege"></p>
+                                        </div>
+                                    </div>
+                                </form>
+
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -588,7 +591,7 @@
                             <!-- section-title-wrap Start -->
                             <div class="section-title-wrap text-center section-space--mb_40">
                                 <h6 class="section-sub-title mb-20">All Services</h6>
-                                <h3 class="heading">Comprehensive Services:<span class="text-color-primary">  Caring for Every Critical Moment</span></h3>
+                                <h3 class="heading">Comprehensive Services:<span class="text-color-primary"> Caring for Every Critical Moment</span></h3>
                             </div>
                             <!-- section-title-wrap Start -->
                         </div>
@@ -607,7 +610,7 @@
                                                 </div>
                                                 <div class="content">
                                                     <h6 class="heading">Ground Ambulance Service</h6>
-                                                   
+
                                                     <div class="text">Efficient and reliable ground ambulance services equipped with advanced medical care, ensuring timely patient transportation in emergencies.
                                                     </div>
                                                     <div class="box-projects-arrow">
@@ -629,7 +632,7 @@
                                                 </div>
                                                 <div class="content">
                                                     <h6 class="heading">Train Ambulance Service</h6>
-                                                   
+
                                                     <div class="text">Cost-effective train ambulance services for long-distance patient transfers, providing expert care and comfort throughout the journey.
                                                     </div>
                                                     <div class="box-projects-arrow">
@@ -641,7 +644,7 @@
                                         </a>
                                         <!-- Projects Wrap End -->
                                     </div>
-                                    
+
                                     <div class="swiper-slide">
                                         <!-- Projects Wrap Start -->
                                         <a href="https://jansaharaambulance.com/air-ambulance-service.php" class="projects-wrap style-01 wow move-up">
@@ -651,7 +654,7 @@
                                                 </div>
                                                 <div class="content">
                                                     <h6 class="heading">Air Ambulance Service</h6>
-                                                   
+
                                                     <div class="text">Fast and dependable air ambulance services with cutting-edge medical support, ensuring rapid transport during critical emergencies.
                                                     </div>
                                                     <div class="box-projects-arrow">
@@ -663,7 +666,7 @@
                                         </a>
                                         <!-- Projects Wrap End -->
                                     </div>
-                                    
+
                                     <div class="swiper-slide">
                                         <!-- Projects Wrap Start -->
                                         <a href="https://jansaharaambulance.com/cardiac-ambulance-service.php" class="projects-wrap style-01 wow move-up">
@@ -673,7 +676,7 @@
                                                 </div>
                                                 <div class="content">
                                                     <h6 class="heading">Cardiac Ambulance Service</h6>
-                                                   
+
                                                     <div class="text">Specialized cardiac ambulance services equipped with advanced life support systems to handle heart-related emergencies with precision.
                                                     </div>
                                                     <div class="box-projects-arrow">
@@ -685,7 +688,7 @@
                                         </a>
                                         <!-- Projects Wrap End -->
                                     </div>
-                                    
+
                                     <div class="swiper-slide">
                                         <!-- Projects Wrap Start -->
                                         <a href="https://jansaharaambulance.com/event-ambulance-service.php" class="projects-wrap style-01 wow move-up">
@@ -695,7 +698,7 @@
                                                 </div>
                                                 <div class="content">
                                                     <h6 class="heading">Event Ambulance Service</h6>
-                                                   
+
                                                     <div class="text">Dedicated event ambulance services ensuring safety and medical care at public and private events of any scale.
                                                     </div>
                                                     <div class="box-projects-arrow">
@@ -707,7 +710,7 @@
                                         </a>
                                         <!-- Projects Wrap End -->
                                     </div>
-                                    
+
                                     <div class="swiper-slide">
                                         <!-- Projects Wrap Start -->
                                         <a href="https://jansaharaambulance.com/emergency-ambulance-service.php" class="projects-wrap style-01 wow move-up">
@@ -717,7 +720,7 @@
                                                 </div>
                                                 <div class="content">
                                                     <h6 class="heading">Emergency Ambulance Service</h6>
-                                                   
+
                                                     <div class="text">24/7 emergency ambulance services designed for quick response and equipped with state-of-the-art medical facilities.
                                                     </div>
                                                     <div class="box-projects-arrow">
@@ -729,7 +732,7 @@
                                         </a>
                                         <!-- Projects Wrap End -->
                                     </div>
-                                    
+
                                     <div class="swiper-slide">
                                         <!-- Projects Wrap Start -->
                                         <a href="https://jansaharaambulance.com/dead-body-ambulance-service.php" class="projects-wrap style-01 wow move-up">
@@ -739,7 +742,7 @@
                                                 </div>
                                                 <div class="content">
                                                     <h6 class="heading">Dead Body Ambulance Service</h6>
-                                                   
+
                                                     <div class="text">Respectful and professional dead body ambulance services for dignified transportation of loved ones to their final resting place.
                                                     </div>
                                                     <div class="box-projects-arrow">
@@ -751,7 +754,7 @@
                                         </a>
                                         <!-- Projects Wrap End -->
                                     </div>
-                                    
+
                                     <div class="swiper-slide">
                                         <!-- Projects Wrap Start -->
                                         <a href="https://jansaharaambulance.com/outstation-ambulance-service.php" class="projects-wrap style-01 wow move-up">
@@ -761,7 +764,7 @@
                                                 </div>
                                                 <div class="content">
                                                     <h6 class="heading">Outstation Ambulance Service</h6>
-                                                   
+
                                                     <div class="text">Reliable outstation ambulance services for safe and comfortable long-distance medical transportation across cities.
                                                     </div>
                                                     <div class="box-projects-arrow">
@@ -773,7 +776,7 @@
                                         </a>
                                         <!-- Projects Wrap End -->
                                     </div>
-                                    
+
                                     <div class="swiper-slide">
                                         <!-- Projects Wrap Start -->
                                         <a href="https://jansaharaambulance.com/dead-body-ambulance-service.php" class="projects-wrap style-01 wow move-up">
@@ -783,7 +786,7 @@
                                                 </div>
                                                 <div class="content">
                                                     <h6 class="heading">Antim Sanskar Seva</h6>
-                                                   
+
                                                     <div class="text">Comprehensive Antim Sanskar Seva services to assist families with funeral arrangements, ensuring respect and dignity for loved ones.
                                                     </div>
                                                     <div class="box-projects-arrow">
@@ -796,9 +799,9 @@
                                         <!-- Projects Wrap End -->
                                     </div>
 
-                                    
 
-                                    
+
+
 
                                 </div>
                                 <div class="swiper-pagination swiper-pagination-project mt_20"></div>
@@ -811,124 +814,124 @@
                 </div>
             </div>
             <!--===========  Projects wrapper End =============-->
-            
-            
-            <!-- Gallery -->
-            
-             <div class="container py-4">
-             
-             <div class="row">
-                        <div class="col-lg-12">
-                            <!-- section-title-wrap Start -->
-                            <div class="section-title-wrap text-center section-space--mb_40">
-                                <h6 class="section-sub-title mb-20">Gallery of Care</h6>
-                                <h3 class="heading">Prepared for Every<span class="text-color-primary">  Emergency</span></h3>
-                            </div>
-                            <!-- section-title-wrap Start -->
-                        </div>
-                    </div>
-             
-        <div class="row g-4">
-            <!-- Image 1 -->
-            
-            <!-- Image 2 -->
-            <div class="col-md-4 col-sm-6">
-                <a href="jansaharanew/gallery/12.webp" data-bs-toggle="modal" data-bs-target="#lightboxModal" class="lightbox-link" data-index="1">
-                    <div class="thumbnail">
-                        <img src="jansaharanew/gallery/12.webp" class="img-fluid rounded" alt="Gallery Image 2">
-                    </div>
-                </a>
-            </div>
-            <!-- Image 3 -->
-            <div class="col-md-4 col-sm-6">
-                <a href="jansaharanew/gallery/13.webp" data-bs-toggle="modal" data-bs-target="#lightboxModal" class="lightbox-link" data-index="2">
-                    <div class="thumbnail">
-                        <img src="jansaharanew/gallery/13.webp" class="img-fluid rounded" alt="Gallery Image 3">
-                    </div>
-                </a>
-            </div>
-            
-            <div class="col-md-4 col-sm-6">
-                <a href="jansaharanew/gallery/14.webp" data-bs-toggle="modal" data-bs-target="#lightboxModal" class="lightbox-link" data-index="2">
-                    <div class="thumbnail">
-                        <img src="jansaharanew/gallery/14.webp" class="img-fluid rounded" alt="Gallery Image 3">
-                    </div>
-                </a>
-            </div>
-            
-            <div class="col-md-4 col-sm-6">
-                <a href="jansaharanew/gallery/15.webp" data-bs-toggle="modal" data-bs-target="#lightboxModal" class="lightbox-link" data-index="2">
-                    <div class="thumbnail">
-                        <img src="jansaharanew/gallery/15.webp" class="img-fluid rounded" alt="Gallery Image 3">
-                    </div>
-                </a>
-            </div>
-            
-            
-            
-            <div class="col-md-4 col-sm-6">
-                <a href="jansaharanew/gallery/17.webp" data-bs-toggle="modal" data-bs-target="#lightboxModal" class="lightbox-link" data-index="2">
-                    <div class="thumbnail">
-                        <img src="jansaharanew/gallery/17.webp" class="img-fluid rounded" alt="Gallery Image 3">
-                    </div>
-                </a>
-            </div>
-            
-            <div class="col-md-4 col-sm-6">
-                <a href="jansaharanew/gallery/18.webp" data-bs-toggle="modal" data-bs-target="#lightboxModal" class="lightbox-link" data-index="2">
-                    <div class="thumbnail">
-                        <img src="jansaharanew/gallery/18.webp" class="img-fluid rounded" alt="Gallery Image 3">
-                    </div>
-                </a>
-            </div>
-            
-            <div class="col-md-4 col-sm-6">
-                <a href="jansaharanew/gallery/19.webp" data-bs-toggle="modal" data-bs-target="#lightboxModal" class="lightbox-link" data-index="2">
-                    <div class="thumbnail">
-                        <img src="jansaharanew/gallery/19.webp" class="img-fluid rounded" alt="Gallery Image 3">
-                    </div>
-                </a>
-            </div>
-            
-            <div class="col-md-4 col-sm-6">
-                <a href="jansaharanew/gallery/10.webp" data-bs-toggle="modal" data-bs-target="#lightboxModal" class="lightbox-link" data-index="2">
-                    <div class="thumbnail">
-                        <img src="jansaharanew/gallery/10.webp" class="img-fluid rounded" alt="Gallery Image 3">
-                    </div>
-                </a>
-            </div>
-            
-            <div class="col-md-4 col-sm-6">
-                <a href="jansaharanew/gallery/11.webp" data-bs-toggle="modal" data-bs-target="#lightboxModal" class="lightbox-link" data-index="2">
-                    <div class="thumbnail">
-                        <img src="jansaharanew/gallery/11.webp" class="img-fluid rounded" alt="Gallery Image 3">
-                    </div>
-                </a>
-            </div>
-        </div>
-    </div>
 
-    <!-- Lightbox Modal -->
-    <div class="modal fade" id="lightboxModal" tabindex="-1" aria-labelledby="lightboxModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-lg">
-            <div class="modal-content">
-                <div class="modal-body position-relative">
-                    <img id="lightboxImage" class="img-fluid w-100 rounded" src="" alt="Expanded Image">
-                    <button id="prevBtn" class="position-absolute top-50 start-0 translate-middle-y">
-                        &#10094;
-                    </button>
-                    <button id="nextBtn" class="position-absolute top-50 end-0 translate-middle-y">
-                        &#10095;
-                    </button>
+
+            <!-- Gallery -->
+
+            <div class="container py-4">
+
+                <div class="row">
+                    <div class="col-lg-12">
+                        <!-- section-title-wrap Start -->
+                        <div class="section-title-wrap text-center section-space--mb_40">
+                            <h6 class="section-sub-title mb-20">Gallery of Care</h6>
+                            <h3 class="heading">Prepared for Every<span class="text-color-primary"> Emergency</span></h3>
+                        </div>
+                        <!-- section-title-wrap Start -->
+                    </div>
                 </div>
-                <button type="button" class="btn-close position-absolute top-0 end-0 m-3" data-bs-dismiss="modal" aria-label="Close"></button>
+
+                <div class="row g-4">
+                    <!-- Image 1 -->
+
+                    <!-- Image 2 -->
+                    <div class="col-md-4 col-sm-6">
+                        <a href="jansaharanew/gallery/12.webp" data-bs-toggle="modal" data-bs-target="#lightboxModal" class="lightbox-link" data-index="1">
+                            <div class="thumbnail">
+                                <img src="jansaharanew/gallery/12.webp" class="img-fluid rounded" alt="Gallery Image 2">
+                            </div>
+                        </a>
+                    </div>
+                    <!-- Image 3 -->
+                    <div class="col-md-4 col-sm-6">
+                        <a href="jansaharanew/gallery/13.webp" data-bs-toggle="modal" data-bs-target="#lightboxModal" class="lightbox-link" data-index="2">
+                            <div class="thumbnail">
+                                <img src="jansaharanew/gallery/13.webp" class="img-fluid rounded" alt="Gallery Image 3">
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6">
+                        <a href="jansaharanew/gallery/14.webp" data-bs-toggle="modal" data-bs-target="#lightboxModal" class="lightbox-link" data-index="2">
+                            <div class="thumbnail">
+                                <img src="jansaharanew/gallery/14.webp" class="img-fluid rounded" alt="Gallery Image 3">
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6">
+                        <a href="jansaharanew/gallery/15.webp" data-bs-toggle="modal" data-bs-target="#lightboxModal" class="lightbox-link" data-index="2">
+                            <div class="thumbnail">
+                                <img src="jansaharanew/gallery/15.webp" class="img-fluid rounded" alt="Gallery Image 3">
+                            </div>
+                        </a>
+                    </div>
+
+
+
+                    <div class="col-md-4 col-sm-6">
+                        <a href="jansaharanew/gallery/17.webp" data-bs-toggle="modal" data-bs-target="#lightboxModal" class="lightbox-link" data-index="2">
+                            <div class="thumbnail">
+                                <img src="jansaharanew/gallery/17.webp" class="img-fluid rounded" alt="Gallery Image 3">
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6">
+                        <a href="jansaharanew/gallery/18.webp" data-bs-toggle="modal" data-bs-target="#lightboxModal" class="lightbox-link" data-index="2">
+                            <div class="thumbnail">
+                                <img src="jansaharanew/gallery/18.webp" class="img-fluid rounded" alt="Gallery Image 3">
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6">
+                        <a href="jansaharanew/gallery/19.webp" data-bs-toggle="modal" data-bs-target="#lightboxModal" class="lightbox-link" data-index="2">
+                            <div class="thumbnail">
+                                <img src="jansaharanew/gallery/19.webp" class="img-fluid rounded" alt="Gallery Image 3">
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6">
+                        <a href="jansaharanew/gallery/10.webp" data-bs-toggle="modal" data-bs-target="#lightboxModal" class="lightbox-link" data-index="2">
+                            <div class="thumbnail">
+                                <img src="jansaharanew/gallery/10.webp" class="img-fluid rounded" alt="Gallery Image 3">
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6">
+                        <a href="jansaharanew/gallery/11.webp" data-bs-toggle="modal" data-bs-target="#lightboxModal" class="lightbox-link" data-index="2">
+                            <div class="thumbnail">
+                                <img src="jansaharanew/gallery/11.webp" class="img-fluid rounded" alt="Gallery Image 3">
+                            </div>
+                        </a>
+                    </div>
+                </div>
             </div>
-        </div>
-    </div>
-            
+
+            <!-- Lightbox Modal -->
+            <div class="modal fade" id="lightboxModal" tabindex="-1" aria-labelledby="lightboxModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-body position-relative">
+                            <img id="lightboxImage" class="img-fluid w-100 rounded" src="" alt="Expanded Image">
+                            <button id="prevBtn" class="position-absolute top-50 start-0 translate-middle-y">
+                                &#10094;
+                            </button>
+                            <button id="nextBtn" class="position-absolute top-50 end-0 translate-middle-y">
+                                &#10095;
+                            </button>
+                        </div>
+                        <button type="button" class="btn-close position-absolute top-0 end-0 m-3" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                </div>
+            </div>
+
             <!-- End Gallery -->
-            
-            
+
+
 
             <!--====================  testimonial section ====================-->
             <div class="testimonial-slider-area section-space--ptb_120 bg-gray-3">
@@ -942,14 +945,14 @@
                             <div class="testimonial-slider">
                                 <div class="swiper-container testimonial-slider__container-two">
                                     <div class="swiper-wrapper testimonial-slider__wrapper">
-                                        
+
                                         <div class="swiper-slide">
-                                            <div class="testimonial-slider__single wow move-up">                                                
-                                                <div class="testimonial-slider__text">                                                	
-Jan Sahara Ambulance Services provided quick and reliable help during an emergency. Truly professional and compassionate.
+                                            <div class="testimonial-slider__single wow move-up">
+                                                <div class="testimonial-slider__text">
+                                                    Jan Sahara Ambulance Services provided quick and reliable help during an emergency. Truly professional and compassionate.
                                                 </div>
                                                 <div class="author-info">
-                                                    
+
                                                     <div class="testimonial-slider__author">
                                                         <h6 class="name">Rajesh Gupta</h6>
                                                         <span class="designation">Andheri, Mumbai</span>
@@ -958,14 +961,14 @@ Jan Sahara Ambulance Services provided quick and reliable help during an emergen
 
                                             </div>
                                         </div>
-                                        
+
                                         <div class="swiper-slide">
-                                            <div class="testimonial-slider__single wow move-up">                                                
-                                                <div class="testimonial-slider__text">                                                	
-Their team was supportive and efficient during a tough time. Exceptional service that I highly recommend.
+                                            <div class="testimonial-slider__single wow move-up">
+                                                <div class="testimonial-slider__text">
+                                                    Their team was supportive and efficient during a tough time. Exceptional service that I highly recommend.
                                                 </div>
                                                 <div class="author-info">
-                                                    
+
                                                     <div class="testimonial-slider__author">
                                                         <h6 class="name">Sneha Mehta</h6>
                                                         <span class="designation">Borivali, Mumbai</span>
@@ -974,14 +977,14 @@ Their team was supportive and efficient during a tough time. Exceptional service
 
                                             </div>
                                         </div>
-                                        
+
                                         <div class="swiper-slide">
-                                            <div class="testimonial-slider__single wow move-up">                                                
-                                                <div class="testimonial-slider__text">                                                	
-I am grateful for their prompt response and care during a critical situation. Excellent and trustworthy service.
+                                            <div class="testimonial-slider__single wow move-up">
+                                                <div class="testimonial-slider__text">
+                                                    I am grateful for their prompt response and care during a critical situation. Excellent and trustworthy service.
                                                 </div>
                                                 <div class="author-info">
-                                                    
+
                                                     <div class="testimonial-slider__author">
                                                         <h6 class="name">Amit Patil</h6>
                                                         <span class="designation">Dadar, Mumbai</span>
@@ -990,15 +993,15 @@ I am grateful for their prompt response and care during a critical situation. Ex
 
                                             </div>
                                         </div>
-                                        
-                                        <div class="swiper-slide">
-                                            <div class="testimonial-slider__single wow move-up">                                                
-                                                <div class="testimonial-slider__text">                                                	
 
-From start to finish, their team handled everything perfectly. Professional, kind, and dependable.
+                                        <div class="swiper-slide">
+                                            <div class="testimonial-slider__single wow move-up">
+                                                <div class="testimonial-slider__text">
+
+                                                    From start to finish, their team handled everything perfectly. Professional, kind, and dependable.
                                                 </div>
                                                 <div class="author-info">
-                                                    
+
                                                     <div class="testimonial-slider__author">
                                                         <h6 class="name">Pooja Sharma</h6>
                                                         <span class="designation">Mulund, Mumbai</span>
@@ -1007,14 +1010,14 @@ From start to finish, their team handled everything perfectly. Professional, kin
 
                                             </div>
                                         </div>
-                                        
+
                                         <div class="swiper-slide">
-                                            <div class="testimonial-slider__single wow move-up">                                                
-                                                <div class="testimonial-slider__text">                                                	
-They went above and beyond to assist us during a tough time. Outstanding service and care.
+                                            <div class="testimonial-slider__single wow move-up">
+                                                <div class="testimonial-slider__text">
+                                                    They went above and beyond to assist us during a tough time. Outstanding service and care.
                                                 </div>
                                                 <div class="author-info">
-                                                    
+
                                                     <div class="testimonial-slider__author">
                                                         <h6 class="name">Vikas Singh</h6>
                                                         <span class="designation">Thane</span>
@@ -1023,14 +1026,14 @@ They went above and beyond to assist us during a tough time. Outstanding service
 
                                             </div>
                                         </div>
-                                        
+
                                         <div class="swiper-slide">
-                                            <div class="testimonial-slider__single wow move-up">                                                
-                                                <div class="testimonial-slider__text">                                                	
-Their dedication and quick action saved valuable time. Highly skilled and compassionate team.
+                                            <div class="testimonial-slider__single wow move-up">
+                                                <div class="testimonial-slider__text">
+                                                    Their dedication and quick action saved valuable time. Highly skilled and compassionate team.
                                                 </div>
                                                 <div class="author-info">
-                                                    
+
                                                     <div class="testimonial-slider__author">
                                                         <h6 class="name">Anjali Desai</h6>
                                                         <span class="designation">Chembur, Mumbai</span>
@@ -1039,14 +1042,14 @@ Their dedication and quick action saved valuable time. Highly skilled and compas
 
                                             </div>
                                         </div>
-                                        
+
                                         <div class="swiper-slide">
-                                            <div class="testimonial-slider__single wow move-up">                                                
-                                                <div class="testimonial-slider__text">                                                	
-Their quick ambulance service gave us peace of mind in an emergency. Truly dependable and caring.
+                                            <div class="testimonial-slider__single wow move-up">
+                                                <div class="testimonial-slider__text">
+                                                    Their quick ambulance service gave us peace of mind in an emergency. Truly dependable and caring.
                                                 </div>
                                                 <div class="author-info">
-                                                    
+
                                                     <div class="testimonial-slider__author">
                                                         <h6 class="name">Manish Verma</h6>
                                                         <span class="designation">Kandivali, Mumbai</span>
@@ -1055,14 +1058,14 @@ Their quick ambulance service gave us peace of mind in an emergency. Truly depen
 
                                             </div>
                                         </div>
-                                        
+
                                         <div class="swiper-slide">
-                                            <div class="testimonial-slider__single wow move-up">                                                
-                                                <div class="testimonial-slider__text">                                                	
-Professional and compassionate, their team managed everything smoothly. A service you can trust.
+                                            <div class="testimonial-slider__single wow move-up">
+                                                <div class="testimonial-slider__text">
+                                                    Professional and compassionate, their team managed everything smoothly. A service you can trust.
                                                 </div>
                                                 <div class="author-info">
-                                                    
+
                                                     <div class="testimonial-slider__author">
                                                         <h6 class="name">Radhika Iyer</h6>
                                                         <span class="designation"> Bandra, Mumbai</span>
@@ -1071,14 +1074,14 @@ Professional and compassionate, their team managed everything smoothly. A servic
 
                                             </div>
                                         </div>
-                                        
+
                                         <div class="swiper-slide">
-                                            <div class="testimonial-slider__single wow move-up">                                                
-                                                <div class="testimonial-slider__text">                                                	
-Their timely support and expert care made a big difference. Highly recommend their services.
+                                            <div class="testimonial-slider__single wow move-up">
+                                                <div class="testimonial-slider__text">
+                                                    Their timely support and expert care made a big difference. Highly recommend their services.
                                                 </div>
                                                 <div class="author-info">
-                                                    
+
                                                     <div class="testimonial-slider__author">
                                                         <h6 class="name">Kunal Thakur</h6>
                                                         <span class="designation">Sion, Mumbai</span>
@@ -1087,9 +1090,9 @@ Their timely support and expert care made a big difference. Highly recommend the
 
                                             </div>
                                         </div>
-                                        
-                                        
-                                        
+
+
+
                                     </div>
                                 </div>
                                 <div class="swiper-pagination swiper-pagination-t0 section-space--mt_40"></div>
@@ -1102,7 +1105,7 @@ Their timely support and expert care made a big difference. Highly recommend the
 
 
             <!--====================  Blog Section Start ====================-->
-            
+
             <!--====================  Blog Section End  ====================-->
             <!--====================  Conact us Section Start ====================-->
             <div class="contact-us-section-wrappaer infotechno-contact-us-bg section-space--ptb_120">
@@ -1152,7 +1155,7 @@ Their timely support and expert care made a big difference. Highly recommend the
                                 <li><a href="mailto:contact@aeroland.com" class="hover-style-link">ss8012799@gmail.com</a></li>
                                 <li><a href="tel:9820700800" class="hover-style-link text-black font-weight--bold">9820 700800</a></li>
                                 <li><a href="tel:9820700900" class="hover-style-link text-black font-weight--bold">9820 700900</a></li>
-                               
+
                             </ul>
                         </div>
                         <div class="col-lg-2 col-md-4 col-sm-6 footer-widget">
@@ -1164,14 +1167,15 @@ Their timely support and expert care made a big difference. Highly recommend the
                                 <li><a href="https://jansaharaambulance.com/cardiac-ambulance-service.php" class="hover-style-link">Cardiac Ambulance</a></li>
                                 <li><a href="https://jansaharaambulance.com/event-ambulance-service.php" class="hover-style-link">Event Ambulance</a></li>
                                 <li><a href="https://jansaharaambulance.com/emergency-ambulance-service.php" class="hover-style-link">Emergency Ambulance</a></li>
-                                 <li><a href="https://jansaharaambulance.com/dead-body-ambulance-service.php" class="hover-style-link">Dead Body Ambulance</a></li>
+                                <li><a href="https://jansaharaambulance.com/dead-body-ambulance-service.php" class="hover-style-link">Dead Body Ambulance</a></li>
                                 <li><a href="https://jansaharaambulance.com/outstation-ambulance-service.php" class="hover-style-link">Outstation Ambulance</a></li>
                                 <li><a href="https://jansaharaambulance.com/antim-sanskar-seva.php" class="hover-style-link">Antim Sanskar Seva</a></li>
-                                                          </ul>
+                            </ul>
                         </div>
                         <div class="col-lg-3 col-md-4 col-sm-6 footer-widget">
                             <h6 class="footer-widget__title mb-20">Pay with QR Code</h6>
-                   	    <img src="jansaharanew/assets/images/Jansahara-gpay.webp" alt="google pay ambulance" class="img-fluid"> </div>
+                            <img src="jansaharanew/assets/images/Jansahara-gpay.webp" alt="google pay ambulance" class="img-fluid">
+                        </div>
                         <!--<div class="col-lg-2 col-md-4 col-sm-6 footer-widget">
                             <h6 class="footer-widget__title mb-20">Quick Links</h6>
                             <ul class="footer-widget__list">
@@ -1184,31 +1188,31 @@ Their timely support and expert care made a big difference. Highly recommend the
                             </ul>
                         </div>-->
                         <div class="col-lg-4 col-md-4 col-sm-6 footer-widget">
-                         <h6 class="footer-widget__title mb-20">Bank Account</h6>
+                            <h6 class="footer-widget__title mb-20">Bank Account</h6>
                             <div class="footer-widget__title section-space--mb_50"></div>
                             <ul class="footer-widget__list">
                                 <li><!--<a href="#" class="image_btn" aria-label="Google play Button"><img class="img-fluid" src="https://jansaharaambulance.com/images/paymentoptions/hdfc.jpeg" alt=""></a>-->
-                                	
-
-Bank: HDFC BANK<br>
 
 
-Account Name: JAN SAHARA AMBULANCE SERVICE<br>
+                                    Bank: HDFC BANK<br>
 
 
-Account Type: Current Account<br>
+                                    Account Name: JAN SAHARA AMBULANCE SERVICE<br>
 
 
-A/c. No: 50200058091149<br>
+                                    Account Type: Current Account<br>
 
 
-IFC Code: HDFC0008180<br>
+                                    A/c. No: 50200058091149<br>
 
 
-Pan Card NO: BPCPS7428N
+                                    IFC Code: HDFC0008180<br>
+
+
+                                    Pan Card NO: BPCPS7428N
 
                                 </li>
-                                
+
                             </ul>
                         </div>
                     </div>
@@ -1255,7 +1259,7 @@ Pan Card NO: BPCPS7428N
 
     </div>
     <!-- Start Toolbar -->
-   
+
     <!-- End Toolbar -->
     <!--====================  scroll top ====================-->
     <a href="#" class="scroll-top" id="scroll-top">
@@ -1292,45 +1296,45 @@ Pan Card NO: BPCPS7428N
                     <ul>
 
                         <li>
-                        
+
                             <a href="https://jansaharaambulance.com/">Home</a>
-                            
+
                         </li>
                         <li>
                             <a href="https://jansaharaambulance.com/about.php">About us</a>
-                            
+
                         </li>
                         <li class="has-children">
                             <a href="#">Services</a>
                             <ul class="sub-menu">
-                                <li><a href="https://jansaharaambulance.com/road-ambulance-service.php"><span>Road  Ambulance</span></a></li>
-                                                                <li><a href="https://jansaharaambulance.com/train-ambulance-service.php"><span>Train ambulance</span></a></li>
-                                                                <li><a href="https://jansaharaambulance.com/air-ambulance-service.php"><span>Air Ambulance</span></a></li>
-                                                                <li><a href="https://jansaharaambulance.com/cardiac-ambulance-service.php"><span>Cardiac Ambulance</span></a></li>
-                                                                <li><a href="https://jansaharaambulance.com/event-ambulance-service.php"><span>Ambulance For Events</span></a></li>
-                                                                <li><a href="https://jansaharaambulance.com/emergency-ambulance-service.php"><span>Ambulance For Emergency</span></a></li>
-                                                                <li><a href="https://jansaharaambulance.com/dead-body-ambulance-service.php"><span>Dead Body Ambulance</span></a></li>
-                                                                <li><a href="https://jansaharaambulance.com/outstation-ambulance-service.php"><span>Outstation Ambulance</span></a></li>
-                                                                <li><a href="https://jansaharaambulance.com/antim-sanskar-seva.php"><span>Antim Sanskar Seva</span></a></li>
+                                <li><a href="https://jansaharaambulance.com/road-ambulance-service.php"><span>Road Ambulance</span></a></li>
+                                <li><a href="https://jansaharaambulance.com/train-ambulance-service.php"><span>Train ambulance</span></a></li>
+                                <li><a href="https://jansaharaambulance.com/air-ambulance-service.php"><span>Air Ambulance</span></a></li>
+                                <li><a href="https://jansaharaambulance.com/cardiac-ambulance-service.php"><span>Cardiac Ambulance</span></a></li>
+                                <li><a href="https://jansaharaambulance.com/event-ambulance-service.php"><span>Ambulance For Events</span></a></li>
+                                <li><a href="https://jansaharaambulance.com/emergency-ambulance-service.php"><span>Ambulance For Emergency</span></a></li>
+                                <li><a href="https://jansaharaambulance.com/dead-body-ambulance-service.php"><span>Dead Body Ambulance</span></a></li>
+                                <li><a href="https://jansaharaambulance.com/outstation-ambulance-service.php"><span>Outstation Ambulance</span></a></li>
+                                <li><a href="https://jansaharaambulance.com/antim-sanskar-seva.php"><span>Antim Sanskar Seva</span></a></li>
                             </ul>
                         </li>
-                        
-                         <li><a href="https://jansaharaambulance.com/book-ambulance.php">Book Ambulance</a></li>
-                                                        
-                                                        <li><a href="https://jansaharaambulance.com/pay-online.php">Pay Online</a></li>
-                                                        
-                                                        <li><a href="https://jansaharaambulance.com/contact-us.php">Contact</a></li>
-                                                        
-                                                        <li><a href="https://drive.google.com/file/d/1ODJFFQRkWyKZunS3USPfDbRA7z7xziK6/view" target="">Download Cataglog</a></li>
-                                                        
-                                                        
-                                                        <li><a href="tel:9820700800"><i class="fas fa-phone fa-flip-horizontal"></i> 9820700800</a></li>
-                                                        
-                                                        <li><a href="tel:9320800900"><i class="fas fa-phone fa-flip-horizontal"></i> 9320800900</a></li>
-                        
 
-                            </ul>
-                        
+                        <li><a href="https://jansaharaambulance.com/book-ambulance.php">Book Ambulance</a></li>
+
+                        <li><a href="https://jansaharaambulance.com/pay-online.php">Pay Online</a></li>
+
+                        <li><a href="https://jansaharaambulance.com/contact-us.php">Contact</a></li>
+
+                        <li><a href="https://drive.google.com/file/d/1ODJFFQRkWyKZunS3USPfDbRA7z7xziK6/view" target="">Download Cataglog</a></li>
+
+
+                        <li><a href="tel:9820700800"><i class="fas fa-phone fa-flip-horizontal"></i> 9820700800</a></li>
+
+                        <li><a href="tel:9320800900"><i class="fas fa-phone fa-flip-horizontal"></i> 9320800900</a></li>
+
+
+                    </ul>
+
                 </nav>
             </div>
         </div>
@@ -1370,21 +1374,21 @@ Pan Card NO: BPCPS7428N
     </div>
     <!--====================  End of search overlay  ====================-->
 
-<!-- Sticky Footer with Color Effect -->
-<!-- Sticky Footer with Animated Background -->
-<div class="footer-strip">
-    <div class="slider-buttons">
-    
-     <a href="https://wa.me/919820700900" target="_blank" class="whatsapp-btn">
-            <i class="fab fa-whatsapp"></i> <span>WhatsApp</span>
-        </a>
-    
-        <a href="tel:9820700800" class="call-btn">
-            <i class="fas fa-phone"></i> <span>Call Now on this no.</span>
-        </a>
-       
+    <!-- Sticky Footer with Color Effect -->
+    <!-- Sticky Footer with Animated Background -->
+    <div class="footer-strip">
+        <div class="slider-buttons">
+
+            <a href="https://wa.me/919820700900" target="_blank" class="whatsapp-btn">
+                <i class="fab fa-whatsapp"></i> <span>WhatsApp</span>
+            </a>
+
+            <a href="tel:9820700800" class="call-btn">
+                <i class="fas fa-phone"></i> <span>Call Now on this no.</span>
+            </a>
+
+        </div>
     </div>
-</div>
 
 
 
@@ -1396,7 +1400,7 @@ Pan Card NO: BPCPS7428N
     <script src="jansaharanew/assets/js/vendor/modernizr-2.8.3.min.js"></script>
 
     <!-- jQuery JS -->
-    
+
     <script src="jansaharanew/assets/js/vendor/jquery-migrate-3.3.0.min.js"></script>
 
     <!-- Bootstrap JS -->
@@ -1410,7 +1414,7 @@ Pan Card NO: BPCPS7428N
     <script src="jansaharanew/assets/js/main.js"></script>
 
 
-<!-- Gallery Files -->
+    <!-- Gallery Files -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="jansaharanew/gallery/gall.js"></script>
 
