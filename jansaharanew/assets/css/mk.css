@@ -10,9 +10,7 @@ a {
     color: #fff;
     background: #009342;
 }
-.header-top-wrap{ background-color:#034925}
-.header-top-wrap p{ color:#FFF;}
-.header-top-wrap a{color:#FFF !important;}
+
 .fun-fact--one .fun-fact__text {
     color: #000;
 }
@@ -28,9 +26,7 @@ a {
     color: #034a26;
 }
  
-.header__logo > a img {
-    width: 250px;
-}
+
 
 .navigation-menu > ul > li {
     margin:0px 20px 0px 0px;
@@ -50,8 +46,6 @@ a {
     position: relative;
     cursor: pointer;
     display: inline-block;
-    margin-top: 28px;
-    margin-left: 147px;
 }
 
 /*Sticky Call & WhatsApp Buttons*/

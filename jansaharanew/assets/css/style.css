@@ -2374,7 +2374,7 @@ input[type=checkbox] {
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 14px 0;
+  padding: 10px 0;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1499px) {
   .header.default-menu-style .header__logo {
@@ -3014,10 +3014,9 @@ input[type=checkbox] {
 }
 .navigation-menu > ul > li > a {
   display: block;
-  color: #000000;
-  padding: 21px 2px;
+  padding: 10px 0px;
   position: relative;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 500;
   line-height: 1.18;
   -webkit-transition: all 0s ease-in-out;
@@ -3096,9 +3095,11 @@ input[type=checkbox] {
   width: 100%;
   left: 0;
 }
-.navigation-menu.primary--menu > ul > li > a {
+
+/* .navigation-menu.primary--menu > ul > li > a {
   padding: 31px 2px;
-}
+} */
+
 .navigation-menu--text_white > ul > li > a {
   color: rgba(255, 255, 255, 0.7);
 }
@@ -3144,9 +3145,10 @@ input[type=checkbox] {
           transition-duration: 0.4s;
   visibility: hidden;
   opacity: 0;
-  min-width: 240px;
-  padding: 20px 0;
+  min-width: 260px;
+  padding: 10px 0 10px 0px;
   z-index: 9;
+  border-radius: 10px;
 }
 .submenu > li {
   position: relative;
@@ -3156,17 +3158,16 @@ input[type=checkbox] {
   padding: 5px 30px;
   color: #ababab;
   font-weight: 400;
-  -webkit-transition: 0s;
-  -o-transition: 0s;
-  transition: 0s;
 }
 .submenu > li > a > span {
   position: relative;
+  font-size: 16px;
+  padding-bottom: 5px;
 }
 .submenu > li > a > span:after {
   content: "";
   width: 0;
-  height: 1px;
+  height: 2px;
   bottom: 0;
   position: absolute;
   left: auto;
@@ -3175,7 +3176,7 @@ input[type=checkbox] {
   background-color: #034a26;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
-  transition: 0.3s;
+   transition: all 0.3s ease-in-out;
 }
 .submenu > li > a:hover {
   color: #034a26;
