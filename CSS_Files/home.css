@@ -1107,10 +1107,10 @@ p {
   color: #111013;
   margin-bottom: 10px;
 }
-.custom-width-30{
+.custom-width-30 {
   width: 32.4%;
 }
-.choose-us-bottom{
+.choose-us-bottom {
   gap: 20px 15px;
   justify-content: center;
 }
@@ -1230,14 +1230,14 @@ p {
   }
   .service-heading {
     margin-top: 10px;
-    line-height: 40px;
-    font-size: 30px;
+    line-height: 36px;
+    font-size: 26px;
   }
   .location-service {
     padding-top: 40px;
   }
   .location-heading {
-    font-size: 30px;
+    font-size: 26px;
   }
   .location-top p {
     width: 100%;
@@ -1248,6 +1248,32 @@ p {
   .icon-bg {
     padding: 14px;
     width: 70px;
+  }
+  .counter-section h4 {
+    font-size: 45px;
+  }
+  .counter-section p {
+    font-size: 40px;
+  }
+  .highlight-cont {
+    gap: 25px;
+  }
+  .steps-bottom {
+    width: 95%;
+    margin: auto;
+  }
+  .choose-section .service-bottom h4,
+  .choose-section .service-bottom h2 {
+    text-align: center;
+  }
+  .custom-width-30 {
+    width: 94%;
+  }
+  .choose-section .choose-us-bottom h4{
+    text-align: center;
+  }
+  .choose-section .service-bottom p{
+    text-align: center;
   }
 }
 
@@ -1310,6 +1336,9 @@ p {
   .carousel-control-next {
     opacity: 1;
   }
+  .service-bottom {
+    margin-bottom: 40px;
+  }
   .service-list .col-md-6 {
     padding: 0px 10px;
   }
@@ -1325,5 +1354,22 @@ p {
   }
   .location-top p {
     width: 100%;
+  }
+  .steps-bottom {
+    width: 95%;
+    margin: auto;
+  }
+  .choose-section .service-bottom h4,
+  .choose-section .service-bottom h2 {
+    text-align: center;
+  }
+  .custom-width-30 {
+    width: 48.9%;
+  }
+  .choose-section .choose-us-bottom h4{
+    text-align: center;
+  }
+  .choose-section .service-bottom p{
+    text-align: center;
   }
 }
