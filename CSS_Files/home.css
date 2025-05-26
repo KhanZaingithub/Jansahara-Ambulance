@@ -764,7 +764,7 @@ p {
   background-position: center;
 }
 .bg-1 {
-  background-image: url("/images/Home/Group\ 1000002761\ \(4\).png");
+  background-image: url("/images/Home/ambulance_banner.webp");
 }
 .bg-2 {
   background-image: url("/images/Home/train-service.jpg");
@@ -953,10 +953,9 @@ p {
   margin-bottom: 5px;
 }
 .location-top p {
-  margin: auto;
-  width: 85%;
   font-size: 20px;
   text-align: center;
+  margin-bottom: 5px;
 }
 .location-bottom {
   gap: 20px 0px;
@@ -1007,7 +1006,7 @@ p {
   border-width: 5px;
   border-color: #034925;
 }
-.booking-process .steps-bottom::before {
+.booking-process .steps::before {
   position: absolute;
   background: #333;
   content: "";
