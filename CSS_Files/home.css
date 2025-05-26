@@ -185,6 +185,9 @@ button:hover {
 p {
   font-family: poppins;
 }
+.container {
+  max-width: 1240px;
+}
 /*=============================================
 =                - Preloader                =
 =============================================*/
@@ -973,7 +976,7 @@ p {
 }
 .highlight-section,
 .equipment-section {
-  background: rgba(3, 73, 37, 0.8);
+  background: #078f41;
   padding: 80px 0px;
 }
 .highlight-icon-bg {
@@ -1090,16 +1093,18 @@ p {
   font-size: 18px;
   margin: 0px;
 }
-.choose-section .choose-us-cont {
+.choose-section .choose-us-cont,
+.equipment-section .equipment-cont {
   background: #fff;
   box-shadow: 0 10px 60px 0 rgba(0, 0, 0, 0.05);
   border-radius: 10px;
-  padding: 40px 25px;
+  padding: 40px 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.choose-section .choose-us-icon {
+.choose-section .choose-us-icon,
+.equipment-section .equipment-icon {
   margin-bottom: 20px;
 }
 .choose-section .choose-us-cont h4 {
@@ -1114,17 +1119,127 @@ p {
   gap: 20px 15px;
   justify-content: center;
 }
+.equipment-section {
+  padding: 120px 0px;
+}
 .equipment-section .equipment-heading {
   text-align: center;
+  margin-bottom: 50px;
 }
 .equipment-section .equipment-heading h2 {
   color: #fff;
   font-size: 35px;
   margin-bottom: 5px;
 }
-.equipment-section .equipment-heading p{
+.equipment-section .equipment-heading p {
   color: #fff;
   font-size: 18px;
+}
+.equipment-section .equipment-item {
+  gap: 20px 15px;
+}
+.equipment-section .equipment-item h4 {
+  font-size: 22px;
+  color: #111013;
+  margin-bottom: 10px;
+}
+.faq-section .faq-top {
+  margin-bottom: 50px;
+}
+.faq-section .faq-top h2 {
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 5px;
+}
+.accordion {
+  padding: 40px 30px;
+  background-color: #fff;
+  box-shadow: 12px 19px 62px 0px rgba(13, 52.00000000000003, 79, 0.07);
+  border-radius: 10px;
+}
+.accordion-item:first-of-type .accordion-button {
+  border-radius: 0px;
+}
+.accordion button {
+  border: 0px;
+  border-radius: 0px;
+  padding: 20px 20px 20px 0px;
+  border-bottom: 1px solid #cccccc;
+  background-color: transparent;
+  color: #111013;
+  font-size: 20px;
+}
+
+.accordion button:hover {
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 1px solid #cccccc;
+  border-left: 0;
+}
+.accordion .accordion-item {
+  border: 0px;
+}
+.accordion-button:focus {
+  border: 0px;
+  box-shadow: none;
+}
+.accordion-button:not(.collapsed) {
+  background-color: transparent;
+  border: 0px;
+  color: #111013;
+  font-size: 20px;
+  border: none;
+}
+.accordion-body {
+  font-size: 18px;
+  padding: 10px 15px 10px 15px;
+}
+.footer {
+  background-color: #1e1e1e;
+  padding: 80px 0px 0px;
+}
+.footer-top{
+  margin-bottom: 40px;
+}
+.footer-logo {
+  margin-bottom: 20px;
+}
+.footer-widget__list li {
+  margin-bottom: 10px;
+  width: fit-content;
+}
+.footer-widget__list li a,.footer-logo p {
+  color: #fff !important;
+}
+.footer-logo p{
+  margin-top: 20px;
+}
+.footer-widget__list li:hover a {
+  color: #034925 !important;
+  cursor: pointer;
+}
+.footer-title {
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.footer_service {
+  padding: 20px 30px 0px 30px;
+}
+.footer_service .service-left{
+  padding-left: 40px;
+}
+.copyright{
+  color: #FFFFFFC4;
+  font-size: 18px;
+}
+.copyright .social-icons{
+  display: flex;
+  justify-content: center;
+}
+.copyright i{
+  font-size: 22px;
+  margin: 0px 12px;
 }
 /* Mobile */
 @media only screen and (max-width: 767px) {
