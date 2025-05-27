@@ -421,38 +421,65 @@
     <!--====================  End of header area  ====================-->
 
     <!--====================  Banner Carosel  ====================-->
-
-    <div
-      id="carouselExampleFade"
-      class="carousel slide carousel-fade"
-      data-bs-ride="carousel"
-    >
-      <div class="discount-btn">
-        <div class="dicount-btn-cont">
-          <img
-            src="images/Home/discount-outer.png"
-            alt="Special Discount"
-            class="discount-img"
-          />
-          <img
-            src="images/Home/discount-inner.png"
-            alt="Special Discount"
-            class="discount-img-inner"
-          />
-        </div>
-      </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active bg bg-1" data-bs-interval="3000">
-          <div class="row m-0 d-block w-100">
+    <div>
+      <div
+        id="carouselExampleFade"
+        class="carousel slide carousel-fade"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active bg bg-1" data-bs-interval="3000">
+            <div class="row m-0 d-block w-100">
+              <div class="col text-container">
+                <h2 class="heroic-text">
+                  Every Call is a Mission, Every Life is a Priority, Every
+                  Second Counts
+                </h2>
+                <p>
+                  When emergencies strike, our ambulance crews are the first to
+                  arrive and the last to give up. Equipped, experienced, and
+                  always ready
+                </p>
+                <div class="hero-btn d-flex">
+                  <button onclick="window.location.href='tel:9820700800'">
+                    Book Now
+                  </button>
+                  <button onclick="window.location.href='/contact-us.php'">
+                    Schedule Ambulance
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item bg" data-bs-interval="3000">
             <div class="col text-container">
               <h2 class="heroic-text">
-                Every Call is a Mission, Every Life is a Priority, Every Second
-                Counts
+                When Every Second Counts,We Fly to Save Lives
               </h2>
               <p>
-                When emergencies strike, our ambulance crews are the first to
-                arrive and the last to give up. Equipped, experienced, and
-                always ready
+                Our elite medical flight teams respond to emergencies with
+                speed, skill, and compassion. From remote villages to crowded
+                cities we bring the ICU to you.
+              </p>
+              <div class="hero-btn d-flex">
+                <button onclick="window.location.href='tel:9820700800'">
+                  Book Now
+                </button>
+                <button onclick="window.location.href='/contact-us.php'">
+                  Schedule Ambulance
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item bg bg-2" data-bs-interval="3000">
+            <div class="col text-container">
+              <h2 class="heroic-text">
+                When Roads End, We Ride the Rails to Save Lives
+              </h2>
+              <p>
+                When air isn’t an option and time is everything, we mobilize
+                India’s longest medical corridors. Because every patient
+                deserves expert care.
               </p>
               <div class="hero-btn d-flex">
                 <button onclick="window.location.href='tel:9820700800'">
@@ -465,64 +492,25 @@
             </div>
           </div>
         </div>
-        <div class="carousel-item bg" data-bs-interval="3000">
-          <div class="col text-container">
-            <h2 class="heroic-text">
-              When Every Second Counts,We Fly to Save Lives
-            </h2>
-            <p>
-              Our elite medical flight teams respond to emergencies with speed,
-              skill, and compassion. From remote villages to crowded cities we
-              bring the ICU to you.
-            </p>
-            <div class="hero-btn d-flex">
-              <button onclick="window.location.href='tel:9820700800'">
-                Book Now
-              </button>
-              <button onclick="window.location.href='/contact-us.php'">
-                Schedule Ambulance
-              </button>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item bg bg-2" data-bs-interval="3000">
-          <div class="col text-container">
-            <h2 class="heroic-text">
-              When Roads End, We Ride the Rails to Save Lives
-            </h2>
-            <p>
-              When air isn’t an option and time is everything, we mobilize
-              India’s longest medical corridors. Because every patient deserves
-              expert care.
-            </p>
-            <div class="hero-btn d-flex">
-              <button onclick="window.location.href='tel:9820700800'">
-                Book Now
-              </button>
-              <button onclick="window.location.href='/contact-us.php'">
-                Schedule Ambulance
-              </button>
-            </div>
-          </div>
-        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleFade"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleFade"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </button>
       </div>
-      <button
-        class="carousel-control-prev"
-        type="button"
-        data-bs-target="#carouselExampleFade"
-        data-bs-slide="prev"
-      >
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      </button>
-      <button
-        class="carousel-control-next"
-        type="button"
-        data-bs-target="#carouselExampleFade"
-        data-bs-slide="next"
-      >
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      </button>
     </div>
+
     <!--============ Banner End ============-->
 
     <!--============ Services ============-->
@@ -1432,7 +1420,7 @@
     <footer class="container-fluid footer">
       <div class="container">
         <div class="row m-md-0 footer-top">
-          <div class="col-lg-3 col-md-6 col-sm-6 footer-widget">
+          <div class="col-12 col-lg-3 col-md-6 col-sm-6 footer-widget">
             <div class="footer-logo">
               <img
                 src="/images/Home/jan-sahara-ambulance.webp"
@@ -1447,7 +1435,7 @@
               </p>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6 service-left">
+          <div class="col-12 col-lg-3 col-md-6 service-left">
             <h6 class="footer-title">Quick Links</h6>
             <ul class="footer_list_service footer-widget__list">
               <li>
@@ -1464,7 +1452,9 @@
               </li>
             </ul>
           </div>
-          <div class="col-lg-3 col-md-6 col-md-4 col-sm-6">
+          <div
+            class="col-12 col-lg-3 mt-lg-0 mt-md-4 col-md-6 col-md-4 col-sm-6 mb-service-left"
+          >
             <h6 class="footer-title">Services</h6>
             <ul class="footer_list_service footer-widget__list">
               <li>
@@ -1532,8 +1522,9 @@
               </li>
             </ul>
           </div>
-
-          <div class="col-lg-3 col-md-4 col-sm-6 footer_service">
+          <div
+            class="col-12 col-lg-3 mt-lg-0 mt-md-4 col-md-4 col-sm-6 service-left-md mb-service-left"
+          >
             <h6 class="footer-title">Let's Connect</h6>
             <ul class="footer_list_service footer-widget__list">
               <li>
@@ -1567,10 +1558,10 @@
           </div>
         </div>
         <div class="row copyright">
-          <div class="col-6">
+          <div class="col-12 col-md-8 col-lg-6">
             <p>Copyright © 2025 jansahara Ambulance. All rights reserved.</p>
           </div>
-          <div class="col-6 social-icons">
+          <div class="col-12 col-md-4 col-lg-6 social-icons">
             <i class="fa-brands fa-instagram"></i>
             <i class="fa-regular fa-envelope"></i>
             <i class="fa-solid fa-phone-volume"></i>
