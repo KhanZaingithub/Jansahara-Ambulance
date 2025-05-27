@@ -154,30 +154,6 @@
       }
     }
   });
-
-  /*======================================
-    =       Countdown Activation          =     
-    ======================================*/
-  const speed = 5; // The lower the slower
-  $(".counter").each(function () {
-    const $counter = $(this);
-
-    const updateCount = function () {
-      const target = +$counter.data("target");
-      const count = +$counter.text();
-
-      const inc = speed;
-
-      if (count < target) {
-        $counter.text(count + inc);
-        setTimeout(updateCount, 2);
-      } else {
-        $counter.text(target);
-      }
-    };
-
-    updateCount();
-  });
   /* =====================================
         Fullpage Scroll Animation   
     ======================================*/

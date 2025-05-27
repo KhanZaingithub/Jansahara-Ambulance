@@ -128,6 +128,7 @@ input {
 
 a {
   text-decoration: none;
+  color: #000 !important;
 }
 
 a:focus {
@@ -621,6 +622,20 @@ p {
 .mobile-menu-overlay__header {
   background-color: #ffffff;
   padding: 15px 0px;
+}
+.mobile-menu-overlay a {
+  color: #fff !important;
+}
+
+.navigation-menu > ul > li {
+  margin: 0px 20px 0px 0px;
+}
+.mobile-navigation-icon {
+  width: 24px;
+  height: 25px;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
 }
 
 /* mobile close icon */
