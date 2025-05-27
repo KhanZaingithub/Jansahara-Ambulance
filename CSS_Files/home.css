@@ -1496,17 +1496,37 @@ p {
   .footer-logo p {
     margin-top: 10px;
   }
-  .footer-top .service-left ,.footer-top .mb-service-left{
+  .footer-top .service-left,
+  .footer-top .mb-service-left {
     padding-top: 20px;
     padding-left: 15px;
   }
-  .footer{
+  .footer {
     padding: 40px 10px 0px;
   }
-  .copyright p{
+  .copyright p {
     text-align: center;
   }
-  
+  .floating__rght__bx{
+    right: 15px;
+  }
+  .fltng__lst > li {
+    width: 62px;
+    height: 62px;
+  }
+  .fltng__lst > .first-icon:before {
+    left: -13px;
+    top: 29px;
+  }
+  .floating__rght__bx .first-icon .icnbx,.floating__rght__bx .icnbx {
+    width: 48px;
+    height: 48px;
+    margin-top: 5px;
+    margin-left: 7px;
+  }
+  .floating__rght__bx .first-icon .icnbx,.floating__rght__bx .second-icon .icnbx.social {
+    background-size: 28px;
+  }
 }
 
 /* Tablets  */
