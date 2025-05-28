@@ -2,11 +2,16 @@ a {
   text-decoration: none;
   color: #000 !important;
 }
-h1 {
-  font-size: 50px;
-  font-weight: 600;
+h1,
+h2,
+h3,
+h4 {
   font-family: "Rubik", sans-serif;
   color: #111013;
+}
+h2 {
+  font-size: 40px;
+  font-weight: 600;
 }
 a,
 button,
@@ -161,17 +166,105 @@ button:hover {
 /*=============================================
    Banner-section       
 =============================================*/
+.banner-section {
+  padding: 60px 0px;
+}
 .banner-section .banner-top h1 {
-  margin-bottom: 35px;
+  margin-bottom: 10px;
 }
 .banner-section .banner-top p {
-  margin-bottom: 30px;
+  margin-bottom: 40px;
   font-size: 18px;
   width: 80%;
 }
-
+.banner-section .banner-top .btn-cont {
+  gap: 15px;
+}
+.banner-section .banner-top .btn-cont a {
+  color: #fff !important;
+  font-size: 18px;
+  font-weight: 600;
+}
 /*=============================================
    Banner-section end       
+=============================================*/
+
+/*=============================================
+   Highlight-section       
+=============================================*/
+.icon-bg {
+  padding: 20px;
+  background-color: rgba(144, 238, 144, 0.2);
+  border-radius: 100%;
+  width: 120px;
+}
+.highlight-section {
+  padding-top: 60px;
+  background-color: #fefefe;
+}
+.highlight-section .highlight-top h4 {
+  font-size: 25px;
+  margin: 20px 0px 10px 0px;
+  text-align: center;
+  font-weight: 900;
+}
+.highlight-section .highlight-top p {
+  font-size: 18px;
+  text-align: center;
+  font-weight: 600;
+}
+/*=============================================
+   Highlight-section End       
+=============================================*/
+
+/*=============================================
+   Service-section       
+=============================================*/
+
+.service-section .service-top h2 {
+  text-align: center;
+}
+.service-section .service-top p {
+  font-size: 18px;
+  text-align: center;
+}
+.service-section .service-bottom {
+  margin-top: 50px;
+  gap: 20px 0px;
+}
+.service-section .service-bottom .custom_padding{
+  padding: 0px 20px 0px 0px;
+}
+.service-section .service-bottom .service-cont {
+  padding: 20px;
+  border: none;
+  box-shadow: 0px 4px 12px 0px rgba(206, 196, 196, 0.45);
+  border-radius: 5px;
+  transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.service-section .service-bottom .service-cont i{
+  font-size: 40px;
+  color: #034925;
+}
+.service-section .service-bottom .service-cont h4{
+  font-size: 25px;
+  font-weight: 600;
+  margin: 20px 0px 10px 0px;
+}
+.service-section .service-bottom .service-cont button {
+  padding: 8px 18px 8px 18px;
+}
+.service-section .service-bottom .service-cont button a {
+  color: #fff !important;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.service-section .service-bottom .service-cont:hover {
+  background-color: rgba(144, 238, 144, 0.3);
+}
+/*=============================================
+   Service-section End       
 =============================================*/
 @media only screen and (max-width: 767px) {
   .spacing {

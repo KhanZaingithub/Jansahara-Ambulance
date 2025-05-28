@@ -52,17 +52,6 @@
   scrollToTop();
 
   /*=========================================
-    =            Preloader active            =
-    ===========================================*/
-
-  jQuery(window).on("load", function () {
-    jQuery("#header .preloader-activate").removeClass("preloader-active");
-
-    setTimeout(function () {
-      jQuery("#header .open_tm_preloader").addClass("loaded");
-    }, 500);
-  });
-  /*=========================================
     =            One page nav active          =
     ===========================================*/
 
