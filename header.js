@@ -56,12 +56,12 @@
     ===========================================*/
 
   windows.on("load", function () {
-    $(".preloader-activate").removeClass("preloader-active");
+    $("#header .preloader-activate").removeClass("preloader-active");
   });
 
   jQuery(window).on("load", function () {
     setTimeout(function () {
-      jQuery(".open_tm_preloader").addClass("loaded");
+      jQuery("#header .open_tm_preloader").addClass("loaded");
     }, 500);
   });
 
