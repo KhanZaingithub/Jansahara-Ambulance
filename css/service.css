@@ -9,6 +9,7 @@ h4 {
   font-family: "Rubik", sans-serif;
   color: #111013;
 }
+
 h2 {
   font-size: 35px;
   font-weight: 600;
@@ -174,13 +175,14 @@ p {
 }
 .banner-section .banner-top h1 {
   margin-bottom: 10px;
-  font-size: 50px;
+  font-size: 45px;
   font-weight: 600;
 }
+
 .banner-section .banner-top p {
   margin-bottom: 40px;
   font-size: 20px;
-  width: 80%;
+  width: 90%;
 }
 .banner-section .banner-top span {
   color: #034925;
@@ -248,6 +250,7 @@ p {
 .service-section .service-bottom .service-cont {
   padding: 20px;
   border: none;
+  height: 100%;
   box-shadow: 0px 4px 12px 0px rgba(206, 196, 196, 0.45);
   border-radius: 5px;
   transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
@@ -297,9 +300,9 @@ p {
    Experience-section End   
 =============================================*/
 @media only screen and (max-width: 767px) {
-  .container {
+  /* .container {
     padding: 0px;
-  }
+  } */
   .spacing {
     padding: 60px 0px 60px 0px;
   }
@@ -313,7 +316,7 @@ p {
     font-size: 25px;
   }
   .banner-section {
-    padding: 50px 15px;
+    padding: 50px 0px;
   }
   .banner-section .banner-top h1 {
     font-size: 35px;
@@ -327,7 +330,7 @@ p {
     text-align: center;
   }
   .banner-section .banner-top .btn-cont a {
-    font-size: 20px;
+    font-size: 18px;
   }
   .banner-section .banner-top p {
     width: 100%;
