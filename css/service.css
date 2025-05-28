@@ -2,7 +2,12 @@ a {
   text-decoration: none;
   color: #000 !important;
 }
-
+h1 {
+  font-size: 50px;
+  font-weight: 600;
+  font-family: "Rubik", sans-serif;
+  color: #111013;
+}
 a,
 button,
 img,
@@ -35,6 +40,24 @@ ul {
   list-style: outside none none;
   margin: 0;
   padding: 0;
+}
+.container {
+  max-width: 1240px;
+}
+.spacing {
+  padding: 120px 0px;
+}
+
+button {
+  padding: 12px 20px 12px 20px;
+  background-color: #034925;
+  border: 2px solid #034925;
+  border-radius: 5px;
+  color: #fff;
+}
+button:hover {
+  background-color: #009248;
+  border: 2px solid #034925;
 }
 /*=============================================
    Pre Loader         
@@ -603,6 +626,21 @@ ul {
   line-height: 1.5;
   padding: 8px 0;
 }
+/*=============================================
+   Banner-section       
+=============================================*/
+.banner-section .banner-top h1 {
+  margin-bottom: 35px;
+}
+.banner-section .banner-top p {
+  margin-bottom: 30px;
+  font-size: 18px;
+  width: 80%;
+}
+
+/*=============================================
+   Banner-section end       
+=============================================*/
 @media only screen and (max-width: 767px) {
   .spacing {
     padding: 60px 0px 60px 0px;
