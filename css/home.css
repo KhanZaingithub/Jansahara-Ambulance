@@ -203,8 +203,7 @@ p {
   Pre
   Loader
   =============================================*/
-  header
-  .preloader-active {
+.preloader-active {
   position: fixed;
   top: 0;
   left: 0;
