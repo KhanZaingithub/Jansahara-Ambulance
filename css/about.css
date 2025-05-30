@@ -204,27 +204,64 @@ p {
 =============================================*/
 
 /*=============================================
+   History-section       
+=============================================*/
+.history-section {
+  background: #fafafa;
+}
+.history-section .vision {
+  margin-bottom: 80px;
+}
+
+.history-section .vision span {
+  color: #034925;
+}
+.history-section .vision .vision-img {
+  width: 50%;
+  border-radius: 5px;
+}
+/*=============================================
+   History-section end  
+=============================================*/
+
+/*=============================================
    Highlight-section       
 =============================================*/
 .icon-bg {
   padding: 20px;
-  background-color: rgba(144, 238, 144, 0.2);
+  background-color: #fff;
   border-radius: 100%;
   width: 120px;
 }
 .highlight-section {
-  background-color: #fafafa;
+  background-color: #034925;
 }
-.highlight-section .highlight-top h4 {
-  font-size: 25px;
-  margin: 20px 0px 6px 0px;
-  text-align: center;
-  font-weight: 900;
+.highlight-section .highlight-top {
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.highlight-section .highlight-top:first-child {
+  flex-direction: row;
+}
+.highlight-section .highlight-top h2 {
+  color: #fff;
 }
 .highlight-section .highlight-top p {
+  color: #fff;
+}
+.highlight-section .highlight-bottom h4 {
+  font-size: 25px;
+  margin: 20px 0px 10px 0px;
+  text-align: center;
+  font-weight: 900;
+  color: #fff;
+}
+.highlight-section .highlight-bottom p {
   font-size: 18px;
   text-align: center;
   font-weight: 600;
+  color: #fff;
+  margin: 0px;
 }
 /*=============================================
    Highlight-section End       
@@ -233,7 +270,12 @@ p {
 /*=============================================
    Service-section       
 =============================================*/
-
+.service-section .service-top h4 {
+  font-size: 18px;
+  color: #034925;
+  font-weight: 600;
+  text-align: center;
+}
 .service-section .service-top h2 {
   text-align: center;
 }
@@ -263,10 +305,10 @@ p {
 .service-section .service-bottom .service-cont h4 {
   font-size: 24px;
   font-weight: 600;
-  margin: 20px 0px 10px 0px;
+  margin: 20px 0px 6px 0px;
 }
 .service-section .service-bottom .service-cont p {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 .service-section .service-bottom .service-cont button,
 .experience-section .experience-right button {
