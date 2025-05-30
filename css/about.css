@@ -240,8 +240,9 @@ p {
   justify-content: center;
   margin-bottom: 50px;
 }
-.highlight-section .highlight-top:first-child {
-  flex-direction: row;
+.highlight-section .highlight-top .heading {
+  flex-direction: column;
+  align-items: center;
 }
 .highlight-section .highlight-top h2 {
   color: #fff;
@@ -298,9 +299,8 @@ p {
   border-radius: 5px;
   transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
-.service-section .service-bottom .service-cont i {
-  font-size: 40px;
-  color: #034925;
+.service-section .service-bottom .service-cont img {
+  border-radius: 5px;
 }
 .service-section .service-bottom .service-cont h4 {
   font-size: 24px;
@@ -319,9 +319,9 @@ p {
   font-size: 16px;
   font-weight: 600;
 }
-.service-section .service-bottom .service-cont:hover {
+/* .service-section .service-bottom .service-cont:hover {
   background-color: rgba(144, 238, 144, 0.3);
-}
+} */
 /*=============================================
    Service-section End       
 =============================================*/
