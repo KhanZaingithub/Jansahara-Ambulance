@@ -429,7 +429,6 @@ p {
   .banner-section .banner-top h1 {
     font-size: 26px;
     text-align: center;
-    font-size: 18px;
   }
 
   .banner-top> :first-child {
@@ -439,6 +438,7 @@ p {
   .banner-section .banner-top p {
     margin-bottom: 30px;
     text-align: center;
+    font-size: 18px;
   }
 
   .banner-section .banner-top .btn-cont a {
