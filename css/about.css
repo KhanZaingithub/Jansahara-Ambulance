@@ -425,6 +425,15 @@ p {
   .history-section .vision .vision-img {
     width: 100%;
   }
+  .history-section .vision > :first-child {
+    margin-bottom: 20px;
+  }
+  .history-section .history > :last-child {
+    margin-bottom: 20px;
+  }
+  .history-section .history > :first-child {
+    margin-bottom: 0px;
+  }
   .highlight-section {
     padding-top: 60px;
   }
@@ -440,6 +449,7 @@ p {
   .highlight-section .highlight-bottom h4 {
     font-size: 22px;
   }
+
   .flex-wrap {
     gap: 30px 0px;
     justify-content: center;
