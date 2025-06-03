@@ -1,0 +1,571 @@
+a {
+  text-decoration: none;
+  color: #000 !important;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Rubik", sans-serif;
+  color: #111013;
+}
+
+h2 {
+  font-size: 35px;
+  font-weight: 600;
+}
+a,
+button,
+img,
+input {
+  transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+a {
+  text-decoration: none;
+  color: #000 !important;
+}
+
+a:focus {
+  color: inherit;
+  outline: none;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #034a26;
+}
+
+.btn.focus {
+  outline: none;
+  box-shadow: none;
+}
+
+ul {
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 1240px;
+}
+.spacing {
+  padding: 120px 0px;
+}
+
+button {
+  padding: 8px 18px 9px 18px;
+  background-color: #034925;
+  border: 2px solid #034925;
+  border-radius: 5px;
+  color: #fff;
+}
+button:hover {
+  background-color: #009248;
+  border: 2px solid #034925;
+}
+p {
+  font-size: 18px;
+}
+.pt-60 {
+  padding-top: 60px;
+}
+
+/*=============================================
+  Pre
+  Loader
+  =============================================*/
+.preloader-active {
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+  z-index: 99999;
+}
+.preloader-active .preloader-area-wrap {
+  background-color: #ffffff;
+  position: absolute;
+  left: 0;
+  display: block;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 999999;
+}
+.preloader-active .preloader-area-wrap .spinner div {
+  background-color: #034a26;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  margin-right: 15px;
+  animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+}
+.preloader-active .preloader-area-wrap .spinner div.bounce1 {
+  animation-delay: -0.32s;
+}
+.preloader-active .preloader-area-wrap .spinner div.bounce2 {
+  animation-delay: -0.16s;
+}
+
+@-webkit-keyframes sk-bouncedelay {
+  0%,
+  80%,
+  100% {
+    transform: scale(0);
+  }
+  40% {
+    transform: scale(1);
+  }
+}
+@keyframes sk-bouncedelay {
+  0%,
+  80%,
+  100% {
+    transform: scale(0);
+  }
+  40% {
+    transform: scale(1);
+  }
+}
+
+.preloader-area-wrap {
+  display: none;
+}
+
+.open_tm_preloader {
+  position: fixed;
+  background-color: transparent;
+  z-index: 9999;
+  height: 100%;
+  width: 100%;
+  transition: 0.2s all ease;
+  transition-delay: 0.5s;
+}
+.open_tm_preloader.loaded {
+  opacity: 0;
+  visibility: hidden;
+}
+.open_tm_preloader.loaded:before,
+.open_tm_preloader.loaded:after {
+  width: 0%;
+}
+.open_tm_preloader:before,
+.open_tm_preloader:after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 50%;
+  background-color: #fff;
+  transition: all 0.5s ease-in-out;
+}
+.open_tm_preloader:before {
+  top: 0;
+  left: 0;
+}
+.open_tm_preloader:after {
+  bottom: 0;
+  right: 0;
+}
+
+/*=============================================
+   Banner-section       
+=============================================*/
+.banner-section {
+  padding: 80px 0px;
+  position: relative;
+  background-image: url("/images/Home/road-ambulance.webp");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.banner-section .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6); /* Change opacity or color here */
+  z-index: 1;
+}
+.banner-section .content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+}
+.banner-section .content h1 {
+  color: #fff;
+  font-weight: 600;
+}
+.breadcrumb {
+  background: transparent;
+  justify-content: center;
+  margin: 0px;
+}
+.breadcrumb .breadcrumb-item a {
+  color: #fff !important;
+  font-weight: 600;
+}
+.breadcrumb .breadcrumb-item a:hover {
+  color: #d3d3d3 !important;
+}
+.breadcrumb .breadcrumb-item.active {
+  color: #d3d3d3 !important;
+  font-weight: 600;
+}
+
+/*=============================================
+   Banner-section end       
+=============================================*/
+
+/*=============================================
+   service-section       
+=============================================*/
+.service-section {
+  background: #fafafa;
+}
+.service-section .service-left {
+  background-image: rgba(0, 0, 0, 0.6),
+    url("/images/Home/cardalic-ambulance.webp");
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: overlay; /* Try also: multiply, screen, soft-light, etc. */
+  border-radius: 5px;
+  overflow: hidden;
+}
+.service-section .service-left .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6); /* Change opacity or color here */
+  z-index: 1;
+}
+
+.service-section .service-left {
+  position: relative;
+  background-image: url("/images/Home/road-ambulance.webp");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+}
+.service-section .service-left .inner {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+}
+.service-section .service-left .inner h4 {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 600;
+}
+.service-section .service-left .inner p {
+  font-size: 18px;
+  color: #fff;
+}
+.service-section .service-left .inner a {
+  color: #fff !important;
+}
+
+.service-section .service-right {
+  padding-left: 50px;
+}
+/*=============================================
+   service-section end  
+=============================================*/
+
+/*=============================================
+   Highlight-section       
+=============================================*/
+.icon-bg {
+  padding: 20px;
+  border-radius: 100%;
+  width: 120px;
+  margin: auto;
+}
+.highlight-section {
+  background-color: #fafafa;
+}
+
+.highlight-section .highlight .highlight-col .highlight-cont {
+  padding: 20px;
+  border: none;
+  box-shadow: 0px 4px 12px 0px rgba(206, 196, 196, 0.45);
+  background: #f0f2f4;
+  transition: transform 0.5s ease;
+}
+.highlight-section .highlight .highlight-col .highlight-cont:hover {
+  transform: translateY(-10px);
+}
+.highlight-section .highlight .highlight-col .highlight-cont h4 {
+  color: #111013;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 600;
+}
+.highlight-section .highlight .highlight-col .highlight-cont p {
+  text-align: center;
+}
+
+/*=============================================
+   detail-section End       
+=============================================*/
+.detail-section {
+  background-color: #fafafa;
+}
+.detail-section .detail .detail-col {
+  border-right: 1px solid #a9a9a9;
+  padding: 20px 30px 20px 0px;
+}
+.detail-section .detail .right-side {
+  border-right: 0px;
+  padding: 20px 0px 20px 30px;
+}
+.detail-section .detail .detail-col .inner h4 {
+  font-size: 28px;
+  font-weight: 600;
+}
+.detail-section .detail .detail-col .inner .detail-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.detail-section .detail .detail-col .inner .detail-list span {
+  font-size: 18px;
+  font-weight: 600;
+}
+.detail-section .detail .detail-col .inner .detail-list i {
+  color: #034925;
+  margin-right: 6px;
+}
+
+/*=============================================
+   detail-section  end
+=============================================*/
+
+/*=============================================
+   contact-section 
+=============================================*/
+.contact-section {
+  background-color: #fafafa;
+}
+.contact-section .contact-col h2 {
+  text-align: center;
+}
+.contact-section .contact-col p {
+  text-align: center;
+}
+.contact-section .contact-col .btn-cont {
+  justify-content: center;
+  margin-top: 30px;
+  gap: 20px;
+}
+.contact-section .contact-col .btn-cont a {
+  color: #fff !important;
+}
+/*=============================================
+   contact-section end
+=============================================*/
+
+@media only screen and (max-width: 767px) {
+  p {
+    font-size: 16px;
+  }
+  .spacing {
+    padding: 60px 0px 60px 0px;
+  }
+  button {
+    padding: 8px 16px 8px 16px;
+  }
+  h1 {
+    font-size: 34px;
+  }
+  h2 {
+    font-size: 25px;
+  }
+  .banner-section {
+    padding: 50px 0px;
+  }
+  .banner-section .banner-top h1 {
+    font-size: 26px;
+    text-align: center;
+  }
+  .banner-top > :first-child {
+    margin-bottom: 40px;
+  }
+  .banner-section .banner-top p {
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 18px;
+  }
+  .banner-section .banner-top .btn-cont a {
+    font-size: 18px;
+  }
+  .banner-section .banner-top p {
+    width: 100%;
+  }
+  .history-section .vision h2,
+  .history-section .vision p {
+    text-align: center;
+  }
+  .history-section .vision .vision-img {
+    width: 100%;
+  }
+  .history-section .vision > :first-child {
+    margin-bottom: 20px;
+  }
+  .history-section .history > :last-child {
+    margin-bottom: 20px;
+  }
+  .history-section .history > :first-child {
+    margin-bottom: 0px;
+  }
+  .highlight-section {
+    padding-top: 60px;
+  }
+  .highlight-section .highlight-top h2 {
+    text-align: center;
+  }
+  .highlight-section .highlight-top p {
+    text-align: center;
+  }
+  .highlight-section .highlight-top {
+    margin-bottom: 30px;
+  }
+  .highlight-section .highlight-bottom h4 {
+    font-size: 22px;
+  }
+
+  .flex-wrap {
+    gap: 30px 0px;
+    justify-content: center;
+  }
+  .service-section .service-bottom {
+    padding: 0px 15px;
+  }
+  .icon-bg {
+    padding: 12px;
+    width: 80px;
+  }
+  .service-section .service-bottom {
+    margin-top: 30px;
+  }
+  .experience-section .experience-left {
+    margin-bottom: 50px;
+  }
+  .experience-section .experience-left,
+  .experience-section .experience-right {
+    padding: 0px 15px;
+  }
+  .experience-section .experience-right p {
+    margin-bottom: 25px;
+  }
+  .bg {
+    padding: 40px 20px;
+  }
+  .service-section .team-bottom {
+    margin: 0px;
+    margin-top: 30px;
+    gap: 20px 0px;
+  }
+  .service-section .team-bottom .custom_padding {
+    padding-right: 0px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1025px) {
+  .spacing {
+    padding: 80px 0px 80px 0px;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 35px;
+  }
+  .banner-section {
+    padding: 50px 15px;
+  }
+  .banner-section .banner-top h1 {
+    font-size: 45px;
+  }
+  .banner-top > :first-child {
+    margin-bottom: 40px;
+  }
+  .banner-section .banner-top p {
+    margin-bottom: 30px;
+  }
+  .banner-section .banner-top .btn-cont a {
+    font-size: 20px;
+  }
+  .banner-section .banner-top p {
+    width: 100%;
+  }
+  .history-section,
+  .highlight-section,
+  .service-section {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .history-section .vision h2,
+  .history-section .vision p {
+    text-align: center;
+  }
+  .history-section .vision > :first-child {
+    margin-bottom: 30px;
+  }
+  .history-section .history > :last-child {
+    margin-bottom: 30px;
+  }
+  .history-section .history > :first-child {
+    margin-bottom: 0px;
+  }
+  .highlight-section {
+    padding-top: 80px;
+  }
+  .highlight-section .highlight-top h2 {
+    text-align: center;
+  }
+  .highlight-section .highlight-top p {
+    text-align: center;
+  }
+  .flex-wrap {
+    gap: 50px 0px;
+    justify-content: center;
+  }
+  .service-section .service-bottom {
+    padding: 0px 15px;
+  }
+  .service-section .service-bottom {
+    margin-top: 30px;
+  }
+  .experience-section .experience-left {
+    margin-bottom: 50px;
+  }
+  .experience-section .experience-left,
+  .experience-section .experience-right {
+    padding: 0px 15px;
+  }
+  .experience-section .experience-right p {
+    margin-bottom: 25px;
+  }
+  .contact-section {
+    padding: 80px 15px;
+  }
+  .contact-section .contact-left {
+    padding-right: 15px;
+  }
+  .contact-section .contact-right {
+    padding-left: 15px;
+    margin-top: 40px;
+  }
+}
