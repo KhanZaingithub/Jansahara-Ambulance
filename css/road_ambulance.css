@@ -446,95 +446,67 @@ p {
     font-size: 34px;
   }
   h2 {
+    font-size: 25px !important;
+  }
+  .breadcrumb {
+    padding: 5px 0px;
+  }
+  .detail-section .detail .detail-col .inner h4 {
     font-size: 25px;
   }
+  .nav-section .nav-left .inner {
+    width: 100%;
+    padding: 25px 15px;
+  }
+  .nav-section .nav-left {
+    margin-bottom: 30px;
+  }
   .banner-section {
-    padding: 50px 0px;
+    padding: 50px 15px;
   }
-  .banner-section .banner-top h1 {
-    font-size: 26px;
-    text-align: center;
+  .banner-section .overlay,
+  .service-section .service-left .overlay {
+    background-color: rgba(0, 0, 0, 0.5);
   }
-  .banner-top > :first-child {
+  .service-section .service-right {
+    padding-left: 0px;
     margin-bottom: 40px;
   }
-  .banner-section .banner-top p {
-    margin-bottom: 30px;
-    text-align: center;
-    font-size: 18px;
+  .service-section .service-left {
+    margin: auto;
   }
-  .banner-section .banner-top .btn-cont a {
-    font-size: 18px;
+  .service-section .service-left .inner h4 {
+    font-size: 24px;
   }
-  .banner-section .banner-top p {
-    width: 100%;
+  .service-section,
+  .highlight-section,
+  .detail-section,
+  .nav-section,
+  .contact-section {
+    padding-right: 15px;
+    padding-left: 15px;
   }
-  .history-section .vision h2,
-  .history-section .vision p {
-    text-align: center;
+  .highlight-section,
+  .detail-section,
+  .nav-section,
+  .contact-section {
+    padding-top: 20px;
   }
-  .history-section .vision .vision-img {
-    width: 100%;
-  }
-  .history-section .vision > :first-child {
-    margin-bottom: 20px;
-  }
-  .history-section .history > :last-child {
-    margin-bottom: 20px;
-  }
-  .history-section .history > :first-child {
-    margin-bottom: 0px;
-  }
-  .highlight-section {
-    padding-top: 60px;
-  }
-  .highlight-section .highlight-top h2 {
-    text-align: center;
-  }
-  .highlight-section .highlight-top p {
-    text-align: center;
-  }
-  .highlight-section .highlight-top {
-    margin-bottom: 30px;
-  }
-  .highlight-section .highlight-bottom h4 {
-    font-size: 22px;
-  }
-
-  .flex-wrap {
+  .highlight-section .highlight {
     gap: 30px 0px;
     justify-content: center;
   }
-  .service-section .service-bottom {
-    padding: 0px 15px;
+  .nav-section .service-right {
+    padding: 0px;
   }
-  .icon-bg {
-    padding: 12px;
-    width: 80px;
+  .detail-section .detail .right-side {
+    padding-left: 0px;
   }
-  .service-section .service-bottom {
-    margin-top: 30px;
+  .detail-section .detail .detail-col .inner .detail-list span {
+    font-size: 20px;
   }
-  .experience-section .experience-left {
-    margin-bottom: 50px;
-  }
-  .experience-section .experience-left,
-  .experience-section .experience-right {
-    padding: 0px 15px;
-  }
-  .experience-section .experience-right p {
-    margin-bottom: 25px;
-  }
-  .bg {
-    padding: 40px 20px;
-  }
-  .service-section .team-bottom {
-    margin: 0px;
-    margin-top: 30px;
-    gap: 20px 0px;
-  }
-  .service-section .team-bottom .custom_padding {
-    padding-right: 0px;
+  .nav-section .service-right {
+    align-content: center;
   }
 }
 
@@ -546,82 +518,53 @@ p {
     font-size: 40px;
   }
   h2 {
-    font-size: 35px;
+    font-size: 35px !important;
   }
   .banner-section {
     padding: 50px 15px;
   }
-  .banner-section .banner-top h1 {
-    font-size: 45px;
+  .banner-section .overlay,
+  .service-section .service-left .overlay {
+    background-color: rgba(0, 0, 0, 0.5);
   }
-  .banner-top > :first-child {
+  .service-section .service-right {
+    padding-left: 0px;
     margin-bottom: 40px;
   }
-  .banner-section .banner-top p {
-    margin-bottom: 30px;
+  .service-section .service-left {
+    margin: auto;
   }
-  .banner-section .banner-top .btn-cont a {
-    font-size: 20px;
+  .service-section .service-left .inner h4 {
+    font-size: 24px;
   }
-  .banner-section .banner-top p {
-    width: 100%;
-  }
-  .history-section,
+  .service-section,
   .highlight-section,
-  .service-section {
-    padding-left: 15px;
+  .detail-section,
+  .nav-section,
+  .contact-section {
     padding-right: 15px;
+    padding-left: 15px;
   }
-  .history-section .vision h2,
-  .history-section .vision p {
-    text-align: center;
+  .highlight-section,
+  .detail-section,
+  .nav-section,
+  .contact-section {
+    padding-top: 40px;
   }
-  .history-section .vision > :first-child {
-    margin-bottom: 30px;
-  }
-  .history-section .history > :last-child {
-    margin-bottom: 30px;
-  }
-  .history-section .history > :first-child {
-    margin-bottom: 0px;
-  }
-  .highlight-section {
-    padding-top: 80px;
-  }
-  .highlight-section .highlight-top h2 {
-    text-align: center;
-  }
-  .highlight-section .highlight-top p {
-    text-align: center;
-  }
-  .flex-wrap {
-    gap: 50px 0px;
+  .highlight-section .highlight {
+    gap: 30px 0px;
     justify-content: center;
   }
-  .service-section .service-bottom {
-    padding: 0px 15px;
+  .nav-section .service-right {
+    padding-left: 30px;
   }
-  .service-section .service-bottom {
-    margin-top: 30px;
+  .detail-section .detail .right-side {
+    padding-left: 0px;
   }
-  .experience-section .experience-left {
-    margin-bottom: 50px;
+  .detail-section .detail .detail-col .inner .detail-list span {
+    font-size: 20px;
   }
-  .experience-section .experience-left,
-  .experience-section .experience-right {
-    padding: 0px 15px;
-  }
-  .experience-section .experience-right p {
-    margin-bottom: 25px;
-  }
-  .contact-section {
-    padding: 80px 15px;
-  }
-  .contact-section .contact-left {
-    padding-right: 15px;
-  }
-  .contact-section .contact-right {
-    padding-left: 15px;
-    margin-top: 40px;
+  .nav-section .service-right {
+    align-content: center;
   }
 }
