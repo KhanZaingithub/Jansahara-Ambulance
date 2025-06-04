@@ -273,6 +273,9 @@ p {
 .service-section .service-right {
   padding-left: 50px;
 }
+.service-section .service-right .inner .custom-margin {
+  margin-bottom: 5px;
+}
 /*=============================================
    service-section end  
 =============================================*/
