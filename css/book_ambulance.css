@@ -1,0 +1,65 @@
+.btn-cont a {
+  color: #fff !important;
+}
+
+.contact-section .contact-right .contact-form {
+  padding: 20px;
+  border: 1px solid;
+  border-radius: 15px;
+}
+
+.contact-section .contact-right {
+  padding-left: 25px;
+}
+
+.form-control {
+  padding: 5px 8px;
+  background: #f7f7f7;
+  height: 40px;
+}
+
+.form-control:focus {
+  border: 1px solid #333;
+  box-shadow: none;
+  background: #f7f7f7;
+}
+
+.form-control.is-invalid:focus,
+.was-validated .form-control:invalid:focus,
+.form-control.is-valid:focus,
+.was-validated .form-control:valid:focus {
+  box-shadow: none;
+}
+
+.form-submit {
+  margin-top: 20px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1025px) {
+  .contact-section {
+    padding: 80px 15px;
+  }
+
+  .contact-section .contact-left {
+    padding-right: 15px;
+  }
+
+  .contact-section .contact-right {
+    padding-left: 15px;
+    margin-top: 40px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .contact-section {
+    padding: 60px 15px;
+  }
+  .contact-section .contact-left {
+    padding-right: 15px;
+  }
+
+  .contact-section .contact-right {
+    padding-left: 15px;
+    margin-top: 40px;
+  }
+}
