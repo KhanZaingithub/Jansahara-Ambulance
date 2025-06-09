@@ -34,6 +34,11 @@
 .form-submit {
   margin-top: 20px;
 }
+.contact-section .contact-left {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
 
 @media only screen and (min-width: 768px) and (max-width: 1025px) {
   .contact-section {
