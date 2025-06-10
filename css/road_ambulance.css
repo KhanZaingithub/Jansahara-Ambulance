@@ -176,7 +176,7 @@ p {
 .banner-section {
   padding: 80px 0px;
   position: relative;
-  background-image: url("/images/Road_Ambulance/banner.webp");
+  background-image: url("/images/Service/service_banner.webp");
   background-size: cover;
   background-position: center;
   display: flex;
@@ -432,6 +432,12 @@ p {
    nav-section end
 =============================================*/
 
+.air-image {
+  height: 400px;
+  display: flex;
+  margin: auto;
+}
+
 @media only screen and (max-width: 767px) {
   p {
     font-size: 16px;
@@ -511,6 +517,9 @@ p {
   }
   .nav-section .service-right {
     align-content: center;
+  }
+  .air-image {
+    width: 100%;
   }
 }
 
