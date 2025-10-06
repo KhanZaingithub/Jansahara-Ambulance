@@ -47,9 +47,7 @@ ul {
   margin: 0;
   padding: 0;
 }
-.container {
-  max-width: 1240px;
-}
+
 .spacing {
   padding: 120px 0px;
 }
@@ -218,6 +216,9 @@ p {
   color: #d3d3d3 !important;
   font-weight: 600;
 }
+.breadcrumb-item+.breadcrumb-item::before{
+    color: #fff;
+}
 
 /*=============================================
    Banner-section end       
@@ -327,7 +328,7 @@ p {
   border-right: 0px;
   padding: 20px 0px 20px 30px;
 }
-.detail-section .detail .detail-col .inner h4 {
+.detail-section .detail .detail-col .inner h2 {
   font-size: 28px;
   font-weight: 600;
 }
@@ -436,6 +437,14 @@ p {
   height: 400px;
   display: flex;
   margin: auto;
+}
+
+
+
+.internal-link {
+  text-decoration: none;
+  color: #034925 !important;
+  font-weight: 500;
 }
 
 @media only screen and (max-width: 767px) {

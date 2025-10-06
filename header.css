@@ -1,7 +1,27 @@
-
-/*=============================================
-   - Scroll top         
-=============================================*/
+.header-area .is-sticky,
+.scroll-top i {
+  transition: 0.7s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.navigation-menu > ul > li > a:before,
+.submenu > li > a > span:after {
+  width: 0;
+  bottom: 0;
+  background-color: #034a26;
+  transition: 0.3s ease-in-out;
+  height: 2px;
+  content: "";
+}
+.mobile-menu-overlay,
+.scroll-top,
+.submenu {
+  visibility: hidden;
+  opacity: 0;
+}
+.mobile-menu-overlay.active,
+.scroll-top.show {
+  visibility: visible;
+  opacity: 1;
+}
 .scroll-top {
   position: fixed;
   right: 20px;
@@ -16,30 +36,35 @@
   text-align: center;
   font-size: 24px;
   cursor: pointer;
-  opacity: 0;
-  visibility: hidden;
   background-color: #034a26;
   background-size: 200% auto;
   background-position: left center;
-  color: #ffffff;
-  transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+  color: #fff;
+  transition: 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
   overflow: hidden;
 }
-
+.header,
+.header__logo,
+.navigation-menu > ul {
+  display: flex;
+}
 .scroll-top.show {
-  visibility: visible;
-  opacity: 1;
   bottom: 30px;
 }
-
 .scroll-top i {
   position: absolute;
   top: 50%;
   left: 50%;
-  color: #ffffff;
-  transition: all 0.7s cubic-bezier(0.645, 0.045, 0.355, 1);
+  color: #fff;
 }
-.scroll-top .arrow-top {
+.header-area,
+.navigation-menu > ul > li.has-children--multilevel-submenu,
+.submenu > li,
+.submenu > li > a > span {
+  position: relative;
+}
+.scroll-top .arrow-top,
+.scroll-top:hover .arrow-bottom {
   transform: translate(-50%, -50%);
 }
 .scroll-top .arrow-bottom {
@@ -51,36 +76,24 @@
 .scroll-top:hover .arrow-top {
   transform: translate(-50%, -80px);
 }
-.scroll-top:hover .arrow-bottom {
-  transform: translate(-50%, -50%);
-}
-/*=============================================
-   - Scroll top End        
-=============================================*/
-
-/*=============================================
-=              05. Header Css            =
-=============================================*/
 .top-message {
   padding: 15px 0;
-  margin: 0px;
+  margin: 0;
   width: fit-content;
   font-size: 16px;
   line-height: 1.5;
   color: #fff;
   font-weight: 500;
-  transition: 0.3s all;
+  transition: 0.3s;
   cursor: pointer;
 }
 .top-message:hover {
-  color: #fffafa;
+  color: snow;
 }
 .header-top-wrap {
   background-color: #034925;
 }
-
 .header-area {
-  position: relative;
   z-index: 1000;
 }
 .header-area .is-sticky {
@@ -88,9 +101,8 @@
   top: 0;
   left: 0;
   width: 100%;
-  animation: 0.95s ease-in-out 0s normal none 1 running fadeInDown;
+  animation: 0.95s ease-in-out fadeInDown;
   z-index: 1000;
-  transition: all 0.7s cubic-bezier(0.645, 0.045, 0.355, 1);
   box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.1);
   background-color: #fff;
 }
@@ -101,7 +113,6 @@
   width: 100%;
   z-index: 99999;
 }
-
 .header-area--absolute__inner {
   position: absolute;
   top: 0;
@@ -114,17 +125,14 @@
   -webkit-box-shadow: 0 10px 15px rgba(0, 0, 0, 0.05);
   box-shadow: 0 10px 15px rgba(0, 0, 0, 0.05);
 }
-
 .header {
-  display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0px 20px;
+  padding: 0 20px;
 }
 .header__logo {
   flex-basis: 20%;
   padding: 10px 0;
-  display: flex;
   align-items: center;
   flex-shrink: 0;
 }
@@ -138,40 +146,24 @@
   display: flex;
   justify-content: center;
 }
-
 .number-section a {
   font-size: 20px;
 }
-
 .header-number-section .number-section a {
   color: #034925 !important;
   font-weight: 600px;
 }
-
-.navigation-menu > ul {
-  display: flex;
-}
-.navigation-menu > ul > li {
-  margin: 0 24px;
-}
-
 .navigation-menu > ul > li > a {
   display: block;
-  padding: 3px 0px;
+  padding: 3px 0;
   position: relative;
   font-size: 18px;
   font-weight: 500;
-  transition: all 0s ease-in-out;
+  transition: ease-in-out;
 }
 .navigation-menu > ul > li > a:before {
-  content: "";
   position: absolute;
-  width: 0px;
-  height: 2px;
-  bottom: 0;
   left: 0;
-  background-color: #034a26;
-  transition: all 0.3s ease-in-out;
 }
 .navigation-menu > ul > li.has-children > a::after {
   position: static;
@@ -180,28 +172,18 @@
   content: "\f107";
   font-weight: 600;
   font-size: 14px;
-  transition: all 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
-
-.navigation-menu > ul > li.has-children--multilevel-submenu {
-  position: relative;
-}
-
 .navigation-menu > ul > li.has-children:hover > .submenu {
   transform: translateY(0);
   visibility: visible;
   opacity: 1;
 }
-
-.navigation-menu > ul > li:hover > a:before,
-.navigation-menu > ul > li.active > a:before {
+.navigation-menu > ul > li.active > a:before,
+.navigation-menu > ul > li:hover > a:before {
   width: 100%;
   left: 0;
 }
-
-/*===================================
-    - Multilevel Submenu Css
-====================================*/
 .submenu {
   position: absolute;
   top: 100%;
@@ -209,16 +191,11 @@
   box-shadow: 0 4px 24px rgba(0, 0, 0, 0.05);
   border-bottom: 3px solid #034a26;
   background-color: #f7f7f7;
-  transition: all 0.4s ease 0.2s;
-  opacity: 0;
-  visibility: hidden;
+  transition: 0.4s 0.2s;
   min-width: 260px;
-  padding: 10px 0 10px 0px;
+  padding: 10px 0;
   z-index: 9;
   border-radius: 5px;
-}
-.submenu > li {
-  position: relative;
 }
 .submenu > li > a {
   display: block;
@@ -226,21 +203,14 @@
   font-weight: 400;
 }
 .submenu > li > a > span {
-  position: relative;
   font-size: 16px;
   padding-bottom: 5px;
 }
 .submenu > li > a > span:after {
-  content: "";
-  width: 0;
-  height: 2px;
-  bottom: 0;
   position: absolute;
   left: auto;
   right: 0;
   z-index: -1;
-  background-color: #034a26;
-  transition: all 0.3s ease-in-out;
 }
 .submenu > li:hover > a > span {
   color: #034a26;
@@ -250,16 +220,6 @@
   left: 0;
   right: auto;
 }
-
-/* Mobile Mavigation icon */
-.mobile-navigation-icon {
-  width: 24px;
-  height: 25px;
-  position: relative;
-  display: inline-block;
-}
-
-/* Hamburger icon */
 .mobile-navigation-icon i {
   position: absolute;
   top: 50%;
@@ -267,7 +227,7 @@
   width: 100%;
   height: 2px;
   background-color: #333;
-  transition: all 0.7s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: 0.7s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 .mobile-navigation-icon i:before {
   position: absolute;
@@ -277,7 +237,7 @@
   height: 2px;
   background-color: #333;
   content: "";
-  transition: all 0.7s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: 0.7s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 .mobile-navigation-icon i:after {
   position: absolute;
@@ -287,12 +247,8 @@
   height: 2px;
   background-color: #333;
   content: "";
-  transition: all 0.7s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: 0.7s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
-
-/*================================ 
-    - Mobile Menu Overlay Css
-==================================*/
 .mobile-menu-overlay {
   position: fixed;
   left: 0;
@@ -300,11 +256,9 @@
   width: 100%;
   height: 100%;
   overflow: auto;
-  transition: all 0.7s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: 0.7s cubic-bezier(0.645, 0.045, 0.355, 1);
   z-index: 9999;
   background: rgba(0, 0, 0, 0.8);
-  visibility: hidden;
-  opacity: 0;
 }
 .mobile-menu-overlay__inner {
   transform: translateX(-120%);
@@ -312,28 +266,21 @@
   height: 100%;
   float: left;
   background: #034a26;
-  transition: all 0.7s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: 0.7s cubic-bezier(0.645, 0.045, 0.355, 1);
   overflow-y: auto;
 }
-
-.mobile-menu-overlay.active {
-  visibility: visible;
-  opacity: 1;
-}
 .mobile-menu-overlay.active .mobile-menu-overlay__inner {
-  transform: translateX(0%);
+  transform: translateX(0);
 }
-
 .mobile-menu-overlay__header {
-  background-color: #ffffff;
-  padding: 15px 0px;
+  background-color: #fff;
+  padding: 15px 0;
 }
 .mobile-menu-overlay a {
   color: #fff !important;
 }
-
 .navigation-menu > ul > li {
-  margin: 0px 20px 0px 0px;
+  margin: 0 20px 0 0;
 }
 .mobile-navigation-icon {
   width: 24px;
@@ -342,8 +289,6 @@
   cursor: pointer;
   display: inline-block;
 }
-
-/* mobile close icon */
 .mobile-menu-overlay__header .mobile-navigation-close-icon {
   position: relative;
   cursor: pointer;
@@ -359,10 +304,10 @@
   content: "";
   width: 24px;
   height: 3px;
-  background: #333333;
+  background: #333;
   transform-origin: 50% 50%;
   transform: rotate(45deg);
-  transition: all 0.7s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: 0.7s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 .mobile-menu-overlay__header .mobile-navigation-close-icon:after {
   position: absolute;
@@ -371,42 +316,36 @@
   content: "";
   width: 24px;
   height: 3px;
-  background: #333333;
+  background: #333;
   transform-origin: 50% 50%;
   transform: rotate(-45deg);
-  transition: all 0.7s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: 0.7s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
-
 .mobile-menu-overlay__body {
-  padding: 20px 20px;
+  padding: 20px;
 }
 .mobile-menu-overlay__body .offcanvas-navigation > ul > li {
   border-bottom: 1px solid rgba(255, 255, 255, 0.15);
 }
-
 .mobile-menu-overlay__body .offcanvas-navigation > ul > li:first-child a {
-  padding: 10px 0px 5px 0px;
+  padding: 10px 0 5px;
 }
 .mobile-menu-overlay__body .offcanvas-navigation > ul > li > a,
 .number-section-mob {
   display: block;
-  color: #ffffff;
-  padding: 20px 0px 5px 0px;
+  color: #fff;
+  padding: 20px 0 5px;
   font-size: 18px;
   font-weight: 500;
   line-height: 1.5;
-  transition: all 0.7s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: 0.7s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
-
 .mobile-menu-overlay__body .offcanvas-navigation > ul > li:last-child {
   border-bottom: 0;
 }
-
 .mobile-menu-overlay__body .offcanvas-navigation > ul > li.has-children {
   position: relative;
 }
-
-/* dropdown icons */
 .mobile-menu-overlay__body
   .offcanvas-navigation
   > ul
@@ -428,7 +367,7 @@
   text-align: center;
   line-height: 40px;
   cursor: pointer;
-  transition: all 0.7s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: 0.7s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 .mobile-menu-overlay__body
   .offcanvas-navigation
@@ -447,7 +386,6 @@
   .sub-menu {
   padding: 12px 0 12px 10px;
 }
-
 .mobile-menu-overlay__body
   .offcanvas-navigation
   > ul
@@ -462,11 +400,6 @@
   line-height: 1.5;
   padding: 8px 0;
 }
-
-/*=============================================
-   Floating Icons        
-=============================================*/
-
 .floating__rght__bx {
   position: fixed;
   top: 40%;
@@ -484,7 +417,6 @@
   background: #fff;
   width: 75px;
   height: 75px;
-  /* box-shadow: 0 4px 12px #e2e2e2; */
   border-radius: 50px;
   margin-bottom: 10px;
 }
@@ -495,20 +427,17 @@
   top: 43px;
   width: 93px;
   height: 70px;
-  background: url(/images/Home/arrow.png) 0 0 no-repeat;
-  background-size: 100%;
+  background: url(/images/Home/arrow.webp) 0 0/100% no-repeat;
 }
 .floating__rght__bx .first-icon .icnbx,
 .floating__rght__bx .second-icon .icnbx.social {
-  background: #034925 url(/images/Home/WA-icon.png) no-repeat 50%;
-  background-size: 35px;
+  background: url(/images/Home/WA-icon.webp) 50%/35px no-repeat #034925;
   cursor: pointer;
-  transition: all 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
   border-radius: 50px;
 }
 .floating__rght__bx .second-icon .icnbx.social {
-  background: #034925 url(/images/Home/Call-icon.png) no-repeat 50%;
-  background-size: 30px;
+  background: url(/images/Home/call_icon.webp) 50%/30px no-repeat #034925;
 }
 .floating__rght__bx .icnbx {
   width: 60px;
@@ -537,11 +466,11 @@
     padding-bottom: 70px;
   }
   .header {
-    padding: 0px 10px;
+    padding: 0 10px;
   }
   .header__logo {
     flex-basis: 50%;
-    padding: 0px;
+    padding: 0;
   }
   .top-message {
     padding: 12px 0;
@@ -554,11 +483,8 @@
     width: 70%;
   }
   .mobile-menu-overlay__header {
-    padding: 10px;
-  }
-  .mobile-menu-overlay__header {
-    background-color: #ffffff;
-    padding: 15px 0px;
+    padding: 15px 0;
+    background-color: #fff;
   }
   .number-section-mob {
     flex-wrap: wrap;
@@ -572,7 +498,7 @@
     li
     a {
     font-size: 16px;
-    padding: 8px 0px;
+    padding: 8px 0;
   }
   .floating__rght__bx {
     right: 15px;

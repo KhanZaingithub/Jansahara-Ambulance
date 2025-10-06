@@ -9,6 +9,6 @@
 
     setTimeout(function () {
       jQuery(".open_tm_preloader").addClass("loaded");
-    }, 500);
+    });
   });
 })(jQuery);

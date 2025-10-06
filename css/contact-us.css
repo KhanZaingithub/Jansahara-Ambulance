@@ -1,6 +1,25 @@
+.contact-section .contact-left ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.contact-section .contact-left ul li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
 @media only screen and (max-width: 767px) {
   .highlight-section {
     padding-top: 80px;
+  }
+  .contact-section .contact-left ul {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 15px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 1025px) {

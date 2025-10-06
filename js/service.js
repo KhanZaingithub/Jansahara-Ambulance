@@ -9,7 +9,7 @@
 
     setTimeout(function () {
       jQuery(".open_tm_preloader").addClass("loaded");
-    }, 500);
+    });
   });
 })(jQuery);
 
@@ -26,9 +26,11 @@
         form.addEventListener(
           "submit",
           function (event) {
+            
             if (form.checkValidity() === false) {
               event.preventDefault();
               event.stopPropagation();
+              return;
             }
             form.classList.add("was-validated");
           },

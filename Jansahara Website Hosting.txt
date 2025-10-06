@@ -1,4 +1,0 @@
-Jansahara Website Hosting
-Admin Panel: https://jansaharaambulance.com:2087/evo/login
-Username: mkjansaharaambulance
-Password: mkwebsolutions
