@@ -580,6 +580,51 @@ p {
    faq-section end    
 =============================================*/
 
+/*=============================================
+   highlight-text section end    
+=============================================*/
+.highlight-text-section {
+  background: #078f41;
+  padding: 80px 0;
+}
+.highlight-text-section .highlight-text-heading {
+  text-align: center;
+  color: #fff;
+  width: 90%;
+  margin: auto;
+}
+.highlight-text-section .highlight-text-heading h2 {
+  color: #fff;
+}
+
+/*=============================================
+   highlight-text section    
+=============================================*/
+
+/*=============================================
+   contact-section 
+=============================================*/
+.contact-section {
+  background-color: #fafafa;
+}
+.contact-section .contact-col h2 {
+  text-align: center;
+}
+.contact-section .contact-col p {
+  text-align: center;
+}
+.contact-section .contact-col .btn-cont {
+  justify-content: center;
+  margin-top: 30px;
+  gap: 20px;
+}
+.contact-section .contact-col .btn-cont a {
+  color: #fff !important;
+}
+/*=============================================
+   contact-section end
+=============================================*/
+
 @media only screen and (min-width: 768px) and (max-width: 1025px) {
   .spacing {
     padding: 80px 0px 80px 0px;
