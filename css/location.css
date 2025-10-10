@@ -585,16 +585,32 @@ p {
 =============================================*/
 .highlight-text-section {
   background: #078f41;
-  padding: 80px 0;
+  padding: 120px 0;
 }
 .highlight-text-section .highlight-text-heading {
   text-align: center;
   color: #fff;
   width: 90%;
   margin: auto;
+  margin-bottom: 50px;
 }
 .highlight-text-section .highlight-text-heading h2 {
   color: #fff;
+}
+.highlight-text-section .choose-us-cont {
+  background: #fff;
+  box-shadow: 0 10px 60px 0 rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.highlight-text-section .choose-us-cont h4 {
+  font-size: 22px;
+  color: #111013;
+  margin-bottom: 10px;
 }
 
 /*=============================================
@@ -654,10 +670,12 @@ p {
     Area Section End
 =============================================
 ***/
-
+.container {
+  max-width: 1240px;
+}
 @media only screen and (min-width: 768px) and (max-width: 1025px) {
   .spacing {
-    padding: 80px 0px 80px 0px;
+    padding: 80px 15px 80px 15px;
   }
   h1 {
     font-size: 40px;
@@ -684,8 +702,8 @@ p {
     width: 100%;
   }
   .text-section .text-right {
-    padding-left: 0px;
-    margin-bottom: 40px;
+    padding-left: 12px;
+    margin-bottom: 30px;
   }
   .text-section .text-left {
     margin: auto;
@@ -693,21 +711,50 @@ p {
   .text-section .text-left .inner h4 {
     font-size: 24px;
   }
-  .text-section {
-    padding-right: 15px;
-    padding-left: 15px;
+  .booking-process .steps-top {
+    margin-bottom: 30px;
   }
   .service-section .service-bottom {
     padding: 0px 15px;
   }
   .service-section .service-bottom {
-    margin-top: 30px;
+    margin-top: 30px 0px;
+    gap: 20px 0px;
+  }
+  .choose-section .choose-top {
+    margin-bottom: 30px;
   }
   .area-section .bottom-section .custom-padding {
     padding: 8px;
   }
   .area-section .bottom-section {
     margin-top: 30px;
+  }
+  .booking-process .steps-bottom {
+    margin: 0px;
+  }
+  .choose-us-bottom {
+    padding: 0 10px;
+  }
+
+  .choose-section .choose-us-cont h4 {
+    font-size: 24px;
+  }
+  .highlight-text-section {
+    padding: 80px 15px;
+  }
+  .highlight-text-section .highlight-text-heading {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .highlight-text-section .choose-us-bottom {
+    margin: 0px;
+  }
+  .faq-top {
+    margin-bottom: 30px;
+  }
+  .custom-width-30 {
+    width: 48%;
   }
 }
 @media only screen and (max-width: 767px) {
@@ -725,6 +772,7 @@ p {
   }
   h2 {
     font-size: 25px;
+    text-align: center;
   }
   .banner-section {
     padding: 50px 0px;
@@ -747,9 +795,16 @@ p {
   .banner-section .banner-top p {
     width: 100%;
   }
+  .banner-section .banner-top .btn-cont {
+    justify-content: center;
+  }
   .text-section .text-right {
-    padding-left: 0px;
-    margin-bottom: 40px;
+    padding: 0px;
+    margin-bottom: 30px;
+  }
+  .text-section .text-right p {
+    font-size: 16px;
+    text-align: center;
   }
   .text-section .text-left {
     margin: auto;
@@ -761,6 +816,9 @@ p {
     padding-right: 15px;
     padding-left: 15px;
   }
+  .service-section .service-top p {
+    font-size: 16px;
+  }
   .service-section .service-bottom {
     padding: 0px 15px;
   }
@@ -771,10 +829,72 @@ p {
   .service-section .service-bottom {
     margin-top: 30px;
   }
+  .service-section .service-bottom .custom_padding {
+    padding: 0px;
+  }
+  .service-section .service-bottom .service-cont h4 {
+    font-size: 22px;
+  }
+  .booking-process .steps-top {
+    margin-bottom: 30px;
+  }
+  .highlight-section {
+    padding: 60px 0px;
+  }
+  .highlight-cont {
+    gap: 25px;
+  }
+  .counter-section h4,
+  .counter-section p {
+    font-size: 45px;
+  }
+  .counter-section p {
+    margin: -5px 0 0 5px;
+  }
+  .counter-text {
+    font-size: 18px;
+  }
+  .choose-section .choose-top {
+    margin-bottom: 30px;
+  }
   .area-section .bottom-section {
     margin-top: 30px;
   }
   .area-section .bottom-section .cont {
     padding: 30px 20px;
+  }
+  .booking-process .steps-bottom {
+    margin: 0px;
+  }
+  .card-title {
+    font-size: 22px;
+  }
+  .custom-width-30 {
+    width: 90%;
+  }
+
+  .highlight-text-section .highlight-text-heading {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .highlight-text-section .choose-us-bottom {
+    margin: auto;
+  }
+  .area-section .bottom-section {
+    gap: 20px 0px;
+  }
+  .faq-top {
+    margin-bottom: 30px;
+  }
+  .accordion {
+    padding: 30px 15px;
+  }
+  .accordion button {
+    padding: 20px 10px 20px 0;
+    font-size: 18px;
+  }
+  .accordion-body {
+    font-size: 16px;
+    padding: 10px;
   }
 }
