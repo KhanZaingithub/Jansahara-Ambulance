@@ -1,0 +1,147 @@
+/*=============================================
+   Text-section       
+=============================================*/
+.text-section {
+  padding-top: 0px;
+}
+.text-section .banner-top p {
+  margin-bottom: 0px;
+}
+.text-section .banner-top .detail-list {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.text-section .banner-top .detail-list span {
+  font-size: 18px;
+  font-weight: 600;
+  color: #212529;
+}
+.text-section .banner-top .detail-list i {
+  color: #034925;
+  margin-right: 6px;
+}
+/*=============================================
+   Text-section end      
+=============================================*/
+
+/*=============================================
+   Service-section       
+=============================================*/
+.service-section {
+  background: #fafafa;
+  padding-top: 120px;
+}
+/*=============================================
+   Service-section End       
+=============================================*/
+
+/*=============================================
+   choose-section       
+=============================================*/
+.choose-section {
+  background-color: #fafafa;
+}
+/*=============================================
+   choose-section end     
+=============================================*/
+
+/*=============================================
+   area-section       
+=============================================*/
+.area-section {
+  background-color: #fafafa;
+  padding-top: 0px;
+}
+/*=============================================
+   area-section end    
+=============================================*/
+
+/*=============================================
+   booking-section       
+=============================================*/
+.booking-process {
+  padding-top: 0px;
+}
+.booking-process .steps-top p {
+  text-align: center;
+}
+
+/*=============================================
+   booking-section End     
+=============================================*/
+
+/*=============================================
+   key-section       
+=============================================*/
+.key-section .key-top h2,
+.key-section .key-top p {
+  text-align: center;
+}
+.key-section .key-bottom .cont {
+  display: flex;
+  align-items: center;
+}
+.key-section .key-bottom {
+  margin-top: 50px;
+}
+.key-section .key-bottom .cont img {
+  border-radius: 8px;
+}
+.key-section .key-bottom .cont h2 {
+  font-size: 28px;
+  font-weight: 500;
+}
+.key-section .key-bottom .detail-list {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.key-section .key-bottom .detail-list span {
+  font-size: 18px;
+  font-weight: 600;
+}
+.key-section .key-bottom .detail-list i {
+  color: #034925;
+  margin-right: 6px;
+}
+/*=============================================
+   key-section End       
+=============================================*/
+
+/*=============================================
+   contact-section       
+=============================================*/
+.contact-section {
+  background-color: #fff;
+}
+/*=============================================
+   contact-section End       
+=============================================*/
+
+@media only screen and (min-width: 768px) and (max-width: 1025px) {
+  .service-section {
+    padding-top: 80px;
+  }
+
+  .text-section .banner-top .detail-list {
+    margin-top: 20px;
+  }
+  .key-section .key-bottom {
+    margin-top: 30px;
+  }
+  .key-section .key-bottom .lower-section {
+    margin-top: 30px;
+  }
+  .key-section .key-bottom .detail-list {
+    margin-top: 20px;
+  }
+  .key-section .key-bottom .detail-list span {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+}

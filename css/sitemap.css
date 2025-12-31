@@ -197,3 +197,25 @@ p {
 .breadcrumb-item + .breadcrumb-item::before {
   color: #111013;
 }
+@media only screen and (max-width: 1025px) {
+  .sitemap {
+    padding: 60px 0px;
+  }
+  .sitemap h1 {
+    font-size: 35px;
+  }
+  .sitemap h2 {
+    font-size: 25px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .sitemap {
+    padding: 40px 0px;
+  }
+  .sitemap h1 {
+    font-size: 26px;
+  }
+  .sitemap h2 {
+    font-size: 22px;
+  }
+}
