@@ -144,4 +144,30 @@
 }
 
 @media only screen and (max-width: 767px) {
+  .service-section {
+    padding-top: 60px;
+  }
+  .service-section .service-bottom {
+    gap: 20px 0px;
+  }
+  .text-section {
+    padding: 60px 2px;
+  }
+  .text-section .banner-top .detail-list span {
+    font-size: 16px;
+  }
+  .key-section {
+    padding: 60px 3px;
+  }
+  .key-section .key-bottom .cont h2 {
+    font-size: 22px;
+    text-align: start;
+    margin-top: 20px;
+  }
+  .key-section .key-bottom .detail-list {
+    margin-top: 0px;
+  }
+  .key-section .key-bottom .lower-section {
+    margin-top: 30px;
+  }
 }
